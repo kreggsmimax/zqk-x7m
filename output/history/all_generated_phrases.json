@@ -34,7 +34,42 @@
       "romaji": "kodomo ga imasen, tasukete kudasai",
       "category": "Emergency Japanese",
       "generated_at": "2026-03-11T08:57:48.766766"
+    },
+    {
+      "english": "Thank you, that means a lot",
+      "japanese": "ありがとう、それはとても助かります",
+      "romaji": "Arigatou, sore wa totemo tasukarimasu",
+      "category": "Gratitude",
+      "generated_at": "2026-03-11T09:14:35.228215"
+    },
+    {
+      "english": "I appreciate you, your kindness matters",
+      "japanese": "あなたの優しさに、感謝します",
+      "romaji": "Anata no yasashisa ni, kansha shimasu",
+      "category": "Gratitude",
+      "generated_at": "2026-03-11T09:14:35.228223"
+    },
+    {
+      "english": "Thanks for being there, for me",
+      "japanese": "そばにいてくれて、ありがとう",
+      "romaji": "Soba ni ite kurete, arigatou",
+      "category": "Gratitude",
+      "generated_at": "2026-03-11T09:14:35.228229"
+    },
+    {
+      "english": "I'm grateful, you believed in me",
+      "japanese": "信じてくれて、感謝しています",
+      "romaji": "Shinjite kurete, kansha shiteimasu",
+      "category": "Gratitude",
+      "generated_at": "2026-03-11T09:14:35.228230"
+    },
+    {
+      "english": "Thanks again, you made my day",
+      "japanese": "元気づけてくれて、ありがとう",
+      "romaji": "Genkizukete kurete, arigatou",
+      "category": "Gratitude",
+      "generated_at": "2026-03-11T09:14:35.228231"
     }
   ],
-  "last_updated": "2026-03-11T08:57:48.766768"
+  "last_updated": "2026-03-11T09:14:35.228233"
 }
