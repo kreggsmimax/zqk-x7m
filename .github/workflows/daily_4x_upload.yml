@@ -11,18 +11,22 @@ on:
   # Allow manual trigger for testing
   workflow_dispatch:
 
+# Use Node.js 24 for JavaScript-based actions
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   generate-and-upload:
     runs-on: ubuntu-latest
 
     steps:
       - name: ⬇️ Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: 📥 Download phrase history (if exists)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         id: download-history
         continue-on-error: true
         with:
@@ -34,7 +38,7 @@ jobs:
           mkdir -p output/history
           if [ ! -f "output/history/all_generated_phrases.json" ]; then
             echo '{"phrases": [], "last_updated": null}' > output/history/all_generated_phrases.json
-            echo "📝 Created new phrase history file"
+            echo "📝 Created new phrase history file (artifact not found or first run)"
           else
             echo "✅ Loaded existing phrase history"
             phrase_count=$(python -c "import json; print(len(json.load(open('output/history/all_generated_phrases.json'))['phrases']))")
@@ -49,7 +53,7 @@ jobs:
           fi
 
       - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -128,7 +132,7 @@ jobs:
           echo "✅ Upload complete!"
 
       - name: 📤 Upload video artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         if: always()
         with:
           name: velocity-japanese-reel-${{ github.run_number }}
@@ -138,7 +142,7 @@ jobs:
           retention-days: 7
 
       - name: 📝 Upload logs
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         if: always()
         with:
           name: logs-${{ github.run_number }}
@@ -149,7 +153,7 @@ jobs:
           retention-days: 7
 
       - name: 💾 Upload phrase history (for persistence)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         if: success()
         with:
           name: phrase-history
