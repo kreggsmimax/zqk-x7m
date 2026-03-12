@@ -209,7 +209,42 @@
       "romaji": "Go-funkan, shinkokyuu shite, mou ichido hajimeyou.",
       "category": "Numbers Japanese",
       "generated_at": "2026-03-12T01:24:31.484892"
+    },
+    {
+      "english": "How much is this, please?",
+      "japanese": "これは、いくらですか？",
+      "romaji": "Kore wa, ikura desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-03-12T14:50:32.919675"
+    },
+    {
+      "english": "I'd like to buy this, please.",
+      "japanese": "これを、ください。",
+      "romaji": "Kore o, kudasai.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-03-12T14:50:32.919684"
+    },
+    {
+      "english": "Can I try this on, please?",
+      "japanese": "試着しても、いいですか？",
+      "romaji": "Shichaku shite mo, ii desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-03-12T14:50:32.919685"
+    },
+    {
+      "english": "Do you accept credit cards, here?",
+      "japanese": "ここで、クレジットカードは使えますか？",
+      "romaji": "Koko de, kurejitto kaado wa tsukaemasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-03-12T14:50:32.919687"
+    },
+    {
+      "english": "Where is the fitting room, please?",
+      "japanese": "試着室は、どこですか？",
+      "romaji": "Shichakushitsu wa, doko desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-03-12T14:50:32.919688"
     }
   ],
-  "last_updated": "2026-03-12T01:24:31.484893"
+  "last_updated": "2026-03-12T14:50:32.919689"
 }
