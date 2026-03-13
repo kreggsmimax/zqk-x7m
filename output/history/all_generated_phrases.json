@@ -384,7 +384,42 @@
       "romaji": "Jikan o wakachiatte, sore wa saikou no okurimono desu.",
       "category": "Kindness",
       "generated_at": "2026-03-13T14:42:54.175654"
+    },
+    {
+      "english": "Time to wake up, slowly",
+      "japanese": "起きる時間だよ、ゆっくり",
+      "romaji": "okiru jikan da yo, yukkuri",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-13T17:41:27.094827"
+    },
+    {
+      "english": "Just a minute, please wait",
+      "japanese": "ちょっと待って、お願いします",
+      "romaji": "chotto matte, onegaishimasu",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-13T17:41:27.094834"
+    },
+    {
+      "english": "Make time, for yourself today",
+      "japanese": "今日は、自分の時間を作って",
+      "romaji": "kyou wa, jibun no jikan o tsukutte",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-13T17:41:27.094836"
+    },
+    {
+      "english": "Now or never, decide quickly",
+      "japanese": "今しかない、早く決めて",
+      "romaji": "ima shika nai, hayaku kimete",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-13T17:41:27.094837"
+    },
+    {
+      "english": "Time flies, with good company",
+      "japanese": "楽しいと、時間はあっという間",
+      "romaji": "tanoshii to, jikan wa atto iu ma",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-13T17:41:27.094838"
     }
   ],
-  "last_updated": "2026-03-13T14:42:54.175655"
+  "last_updated": "2026-03-13T17:41:27.094840"
 }
