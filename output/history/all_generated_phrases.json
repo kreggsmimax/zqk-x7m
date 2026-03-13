@@ -419,7 +419,42 @@
       "romaji": "tanoshii to, jikan wa atto iu ma",
       "category": "Time Japanese",
       "generated_at": "2026-03-13T17:41:27.094838"
+    },
+    {
+      "english": "Hold on, brighter days are coming",
+      "japanese": "信じて、良い日が来るよ",
+      "romaji": "Shinjite, ii hi ga kuru yo",
+      "category": "Hope",
+      "generated_at": "2026-03-13T20:42:59.550181"
+    },
+    {
+      "english": "Keep going, small steps build hope",
+      "japanese": "続けて、小さな一歩が希望になる",
+      "romaji": "Tsuzukete, chiisana ippo ga kibou ni naru",
+      "category": "Hope",
+      "generated_at": "2026-03-13T20:42:59.550189"
+    },
+    {
+      "english": "Look up, tomorrow will surely be different",
+      "japanese": "顔を上げて、明日はきっと違う",
+      "romaji": "Kao o agete, ashita wa kitto chigau",
+      "category": "Hope",
+      "generated_at": "2026-03-13T20:42:59.550190"
+    },
+    {
+      "english": "Plant a seed, watch hope grow daily",
+      "japanese": "種をまいて、希望は毎日育つ",
+      "romaji": "Tane o maite, kibou wa mainichi sodatsu",
+      "category": "Hope",
+      "generated_at": "2026-03-13T20:42:59.550192"
+    },
+    {
+      "english": "Tiny lights, guide you through the dark",
+      "japanese": "小さな明かりが、暗闇を照らすよ",
+      "romaji": "Chiisana akari ga, kurayami o terasu yo",
+      "category": "Hope",
+      "generated_at": "2026-03-13T20:42:59.550193"
     }
   ],
-  "last_updated": "2026-03-13T17:41:27.094840"
+  "last_updated": "2026-03-13T20:42:59.550195"
 }
