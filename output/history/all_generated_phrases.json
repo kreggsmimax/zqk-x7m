@@ -314,7 +314,42 @@
       "romaji": "Kyou o taisetsu ni, yasashii okurimono da",
       "category": "Happiness",
       "generated_at": "2026-03-12T20:42:12.856922"
+    },
+    {
+      "english": "To make friends, speak simple Japanese",
+      "japanese": "友達を作るために、簡単な日本語を話そう",
+      "romaji": "Tomodachi o tsukuru tame ni, kantan na Nihongo o hanasou",
+      "category": "Purpose",
+      "generated_at": "2026-03-13T01:28:03.954758"
+    },
+    {
+      "english": "To read menus, learn key kanji",
+      "japanese": "メニューを読むために、重要な漢字を覚えよう",
+      "romaji": "Menyuu o yomu tame ni, juuyou na kanji o oboeyou",
+      "category": "Purpose",
+      "generated_at": "2026-03-13T01:28:03.954767"
+    },
+    {
+      "english": "To travel confidently, practice useful phrases",
+      "japanese": "自信を持って旅するために、便利なフレーズを練習しよう",
+      "romaji": "Jishin o motte tabi suru tame ni, benri na fureezu o renshuu shiyou",
+      "category": "Purpose",
+      "generated_at": "2026-03-13T01:28:03.954768"
+    },
+    {
+      "english": "To understand culture, listen to stories",
+      "japanese": "文化を理解するために、物語を聞こう",
+      "romaji": "Bunka o rikai suru tame ni, monogatari o kikou",
+      "category": "Purpose",
+      "generated_at": "2026-03-13T01:28:03.954769"
+    },
+    {
+      "english": "To work in Japan, improve your keigo",
+      "japanese": "日本で働くために、敬語を上達させよう",
+      "romaji": "Nihon de hataraku tame ni, keigo o joutatsu saseyou",
+      "category": "Purpose",
+      "generated_at": "2026-03-13T01:28:03.954770"
     }
   ],
-  "last_updated": "2026-03-12T20:42:12.856925"
+  "last_updated": "2026-03-13T01:28:03.954772"
 }
