@@ -664,7 +664,42 @@
       "romaji": "Nintai wa tane no you ni, jikan ga hitsuyou da",
       "category": "Patience",
       "generated_at": "2026-03-15T14:30:54.799682"
+    },
+    {
+      "english": "Thank you, for your time today",
+      "japanese": "今日は、時間を割いてくれてありがとう",
+      "romaji": "Kyou wa, jikan o saite kurete arigatou",
+      "category": "Gratitude",
+      "generated_at": "2026-03-15T17:35:09.468443"
+    },
+    {
+      "english": "I owe you, thanks a lot",
+      "japanese": "助かったよ、本当にありがとう",
+      "romaji": "Tasukatta yo, hontou ni arigatou",
+      "category": "Gratitude",
+      "generated_at": "2026-03-15T17:35:09.468451"
+    },
+    {
+      "english": "Thank you, that was so thoughtful",
+      "japanese": "気遣ってくれて、ありがとう",
+      "romaji": "Kizukatte kurete, arigatou",
+      "category": "Gratitude",
+      "generated_at": "2026-03-15T17:35:09.468453"
+    },
+    {
+      "english": "I'm thankful, to have you around",
+      "japanese": "あなたがいてくれて、感謝しています",
+      "romaji": "Anata ga ite kurete, kansha shiteimasu",
+      "category": "Gratitude",
+      "generated_at": "2026-03-15T17:35:09.468454"
+    },
+    {
+      "english": "Many thanks, I won't forget this",
+      "japanese": "本当にありがとう、忘れません",
+      "romaji": "Hontou ni arigatou, wasuremasen",
+      "category": "Gratitude",
+      "generated_at": "2026-03-15T17:35:09.468455"
     }
   ],
-  "last_updated": "2026-03-15T14:30:54.799683"
+  "last_updated": "2026-03-15T17:35:09.468457"
 }
