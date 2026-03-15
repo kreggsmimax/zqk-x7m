@@ -699,7 +699,42 @@
       "romaji": "Hontou ni arigatou, wasuremasen",
       "category": "Gratitude",
       "generated_at": "2026-03-15T17:35:09.468455"
+    },
+    {
+      "english": "Small steps, every day, build progress",
+      "japanese": "小さな一歩を、毎日積み重ねよう",
+      "romaji": "Chiisana ippo o, mainichi tsumikasaneyou",
+      "category": "Growth",
+      "generated_at": "2026-03-15T20:36:59.287549"
+    },
+    {
+      "english": "Fail often, learn quickly, try again",
+      "japanese": "失敗を恐れず、早く学んで、また挑戦しよう",
+      "romaji": "Shippai o osorezu, hayaku manande, mata chousen shiyou",
+      "category": "Growth",
+      "generated_at": "2026-03-15T20:36:59.287558"
+    },
+    {
+      "english": "Ask questions, stay curious, grow faster",
+      "japanese": "疑問を持ち、好奇心を保ち、成長しよう",
+      "romaji": "Gimon o mochi, koukishin o tamochi, seichou shiyou",
+      "category": "Growth",
+      "generated_at": "2026-03-15T20:36:59.287559"
+    },
+    {
+      "english": "Choose consistency, not intensity, win long-term",
+      "japanese": "強度よりも、継続を選べ、長期で勝とう",
+      "romaji": "Kyoudo yori mo, keizoku o erabe, chouki de katou",
+      "category": "Growth",
+      "generated_at": "2026-03-15T20:36:59.287560"
+    },
+    {
+      "english": "Track progress, celebrate small wins, keep going",
+      "japanese": "進捗を記録し、小さな勝利を祝って、続けよう",
+      "romaji": "Shinchoku o kiroku shi, chiisana shouri o iwatte, tsuzukeyou",
+      "category": "Growth",
+      "generated_at": "2026-03-15T20:36:59.287561"
     }
   ],
-  "last_updated": "2026-03-15T17:35:09.468457"
+  "last_updated": "2026-03-15T20:36:59.287563"
 }
