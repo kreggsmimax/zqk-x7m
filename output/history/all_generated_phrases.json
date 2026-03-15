@@ -629,7 +629,42 @@
       "romaji": "chiisana ippo de, jizoku suru baransu o tsukuru",
       "category": "Balance",
       "generated_at": "2026-03-15T01:51:54.527977"
+    },
+    {
+      "english": "Wait a moment, good things grow",
+      "japanese": "少し待って、いいことは育つよ",
+      "romaji": "Sukoshi matte, ii koto wa sodatsu yo",
+      "category": "Patience",
+      "generated_at": "2026-03-15T14:30:54.799669"
+    },
+    {
+      "english": "One step at a time, keep going",
+      "japanese": "一歩ずつ、進み続けよう",
+      "romaji": "Ippo zutsu, susumi tsuzukeyou",
+      "category": "Patience",
+      "generated_at": "2026-03-15T14:30:54.799678"
+    },
+    {
+      "english": "Breathe slowly, let time do its work",
+      "japanese": "深呼吸して、時間に任せよう",
+      "romaji": "Shinkokyuu shite, jikan ni makaseyou",
+      "category": "Patience",
+      "generated_at": "2026-03-15T14:30:54.799679"
+    },
+    {
+      "english": "Small steps matter, progress builds quietly",
+      "japanese": "小さな歩みが大事、進みは静かに積もる",
+      "romaji": "Chiisana ayumi ga daiji, susumi wa shizuka ni tsumoru",
+      "category": "Patience",
+      "generated_at": "2026-03-15T14:30:54.799680"
+    },
+    {
+      "english": "Patience, like a seed, needs time",
+      "japanese": "忍耐は種のように、時間が必要だ",
+      "romaji": "Nintai wa tane no you ni, jikan ga hitsuyou da",
+      "category": "Patience",
+      "generated_at": "2026-03-15T14:30:54.799682"
     }
   ],
-  "last_updated": "2026-03-15T01:51:54.527978"
+  "last_updated": "2026-03-15T14:30:54.799683"
 }
