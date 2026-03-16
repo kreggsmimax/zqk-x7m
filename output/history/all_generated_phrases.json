@@ -734,7 +734,42 @@
       "romaji": "Shinchoku o kiroku shi, chiisana shouri o iwatte, tsuzukeyou",
       "category": "Growth",
       "generated_at": "2026-03-15T20:36:59.287561"
+    },
+    {
+      "english": "Where is the nearest train station, please?",
+      "japanese": "一番近い駅は、どこですか？",
+      "romaji": "Ichiban chikai eki wa, doko desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-03-16T01:52:48.010062"
+    },
+    {
+      "english": "How much is this, including tax?",
+      "japanese": "これ、税込でいくらですか？",
+      "romaji": "Kore, zeikomi de ikura desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-03-16T01:52:48.010078"
+    },
+    {
+      "english": "Could you take a photo, for us?",
+      "japanese": "写真を、撮っていただけますか？",
+      "romaji": "Shashin o, totte itadakemasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-03-16T01:52:48.010079"
+    },
+    {
+      "english": "Is this seat taken, or free?",
+      "japanese": "この席、空いていますか？",
+      "romaji": "Kono seki, aite imasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-03-16T01:52:48.010080"
+    },
+    {
+      "english": "I need a taxi, to the station.",
+      "japanese": "駅まで、タクシーをお願いします。",
+      "romaji": "Eki made, takushii o onegai shimasu.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-03-16T01:52:48.010082"
     }
   ],
-  "last_updated": "2026-03-15T20:36:59.287563"
+  "last_updated": "2026-03-16T01:52:48.010083"
 }
