@@ -1084,7 +1084,42 @@
       "romaji": "kuruma ga jiko o okoshimashita, tojikomerareteimasu, tasuke o yonde kudasai",
       "category": "Emergency Japanese",
       "generated_at": "2026-03-18T15:03:02.516530"
+    },
+    {
+      "english": "I'm sorry, I hurt you, please forgive me",
+      "japanese": "ごめん、傷つけてしまって、許してほしい",
+      "romaji": "Gomen, kizutsukete shimatte, yurushite hoshii",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-18T19:12:08.419995"
+    },
+    {
+      "english": "I forgive you, let's heal, together",
+      "japanese": "許すよ、一緒に、前に進もう",
+      "romaji": "Yurusu yo, issho ni, mae ni susumou",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-18T19:12:08.420006"
+    },
+    {
+      "english": "It hurts, but I forgive you, slowly",
+      "japanese": "痛いけど、許すよ、ゆっくりね",
+      "romaji": "Itai kedo, yurusu yo, yukkuri ne",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-18T19:12:08.420012"
+    },
+    {
+      "english": "I'm ready to forgive, but need time",
+      "japanese": "許す準備はできた、でも時間が欲しい",
+      "romaji": "Yurusu junbi wa dekita, demo jikan ga hoshii",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-18T19:12:08.420014"
+    },
+    {
+      "english": "Thank you, for apologizing, I forgive you",
+      "japanese": "謝ってくれて、ありがとう、許すよ",
+      "romaji": "Ayamatte kurete, arigatou, yurusu yo",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-18T19:12:08.420015"
     }
   ],
-  "last_updated": "2026-03-18T15:03:02.516536"
+  "last_updated": "2026-03-18T19:12:08.420017"
 }
