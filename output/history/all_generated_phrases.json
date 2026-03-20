@@ -1399,7 +1399,42 @@
       "romaji": "Youkoso, douzo ohairi kudasai.",
       "category": "Greetings",
       "generated_at": "2026-03-20T12:29:47.792661"
+    },
+    {
+      "english": "Today, is a happy day.",
+      "japanese": "今日は、嬉しい日です。",
+      "romaji": "kyou wa, ureshii hi desu.",
+      "category": "Joy",
+      "generated_at": "2026-03-20T14:42:06.451220"
+    },
+    {
+      "english": "This, makes me smile.",
+      "japanese": "これ、笑顔になります。",
+      "romaji": "kore, egao ni narimasu.",
+      "category": "Joy",
+      "generated_at": "2026-03-20T14:42:06.451228"
+    },
+    {
+      "english": "Feeling, so content.",
+      "japanese": "とても、満ち足りています。",
+      "romaji": "totemo, michitarite imasu.",
+      "category": "Joy",
+      "generated_at": "2026-03-20T14:42:06.451229"
+    },
+    {
+      "english": "A good, surprise!",
+      "japanese": "良い、サプライズ！",
+      "romaji": "yoi, sapuraizu!",
+      "category": "Joy",
+      "generated_at": "2026-03-20T14:42:06.451231"
+    },
+    {
+      "english": "Pure, delight.",
+      "japanese": "純粋な、喜び。",
+      "romaji": "junsui na, yorokobi.",
+      "category": "Joy",
+      "generated_at": "2026-03-20T14:42:06.451232"
     }
   ],
-  "last_updated": "2026-03-20T12:29:47.792663"
+  "last_updated": "2026-03-20T14:42:06.451233"
 }
