@@ -1434,7 +1434,42 @@
       "romaji": "junsui na, yorokobi.",
       "category": "Joy",
       "generated_at": "2026-03-20T14:42:06.451232"
+    },
+    {
+      "english": "Shine brightly, like the sun.",
+      "japanese": "太陽のように、輝こう。",
+      "romaji": "taiyō no yō ni, kagayakou.",
+      "category": "Positive Life",
+      "generated_at": "2026-03-20T17:39:53.625649"
+    },
+    {
+      "english": "Every day, a new chance.",
+      "japanese": "毎日、新しいチャンス。",
+      "romaji": "mainichi, atarashii chansu.",
+      "category": "Positive Life",
+      "generated_at": "2026-03-20T17:39:53.625658"
+    },
+    {
+      "english": "Believe in yourself, always.",
+      "japanese": "自分を信じて、いつも。",
+      "romaji": "jibun o shinjite, itsumo.",
+      "category": "Positive Life",
+      "generated_at": "2026-03-20T17:39:53.625660"
+    },
+    {
+      "english": "Small steps, big journey.",
+      "japanese": "小さな一歩、大きな旅。",
+      "romaji": "chiisana ippo, ookina tabi.",
+      "category": "Positive Life",
+      "generated_at": "2026-03-20T17:39:53.625661"
+    },
+    {
+      "english": "Find joy, in simple things.",
+      "japanese": "簡単なことに、喜びを見つけよう。",
+      "romaji": "kantan na koto ni, yorokobi o mitsukeyou.",
+      "category": "Positive Life",
+      "generated_at": "2026-03-20T17:39:53.625662"
     }
   ],
-  "last_updated": "2026-03-20T14:42:06.451233"
+  "last_updated": "2026-03-20T17:39:53.625663"
 }
