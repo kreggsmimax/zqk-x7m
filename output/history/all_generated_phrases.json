@@ -1784,7 +1784,42 @@
       "romaji": "anata no kokoro ni, mimi o sumasete.",
       "category": "Inner Peace",
       "generated_at": "2026-03-22T14:27:08.678485"
+    },
+    {
+      "english": "Little by little, progress is made.",
+      "japanese": "少しずつ、進歩します。",
+      "romaji": "sukoshi zutsu, shinpō shimasu.",
+      "category": "Patience",
+      "generated_at": "2026-03-22T17:31:19.018296"
+    },
+    {
+      "english": "Wait for the right moment.",
+      "japanese": "良い時を待ちましょう。",
+      "romaji": "yoi toki o machimashō.",
+      "category": "Patience",
+      "generated_at": "2026-03-22T17:31:19.018303"
+    },
+    {
+      "english": "Don't rush, take your time.",
+      "japanese": "急がず、ゆっくりと。",
+      "romaji": "isogazu, yukkuri to.",
+      "category": "Patience",
+      "generated_at": "2026-03-22T17:31:19.018304"
+    },
+    {
+      "english": "Even a slow person, can succeed.",
+      "japanese": "遅い人でも、成功できます。",
+      "romaji": "osoi hito demo, seikō dekimasu.",
+      "category": "Patience",
+      "generated_at": "2026-03-22T17:31:19.018306"
+    },
+    {
+      "english": "Keep trying, don't give up.",
+      "japanese": "努力を続け、諦めないで。",
+      "romaji": "doryoku o tsuduke, akiramenaide.",
+      "category": "Patience",
+      "generated_at": "2026-03-22T17:31:19.018307"
     }
   ],
-  "last_updated": "2026-03-22T14:27:08.678487"
+  "last_updated": "2026-03-22T17:31:19.018308"
 }
