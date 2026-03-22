@@ -1819,7 +1819,42 @@
       "romaji": "doryoku o tsuduke, akiramenaide.",
       "category": "Patience",
       "generated_at": "2026-03-22T17:31:19.018307"
+    },
+    {
+      "english": "Hello, how are you?",
+      "japanese": "こんにちは、お元気ですか？",
+      "romaji": "konnichiwa, ogenki desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-22T20:21:36.323666"
+    },
+    {
+      "english": "Thank you, very much.",
+      "japanese": "どうも、ありがとうございます。",
+      "romaji": "doumo, arigatou gozaimasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-22T20:21:36.323677"
+    },
+    {
+      "english": "Excuse me, please wait.",
+      "japanese": "すみません、ちょっと待ってください。",
+      "romaji": "sumimasen, chotto matte kudasai.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-22T20:21:36.323678"
+    },
+    {
+      "english": "I don't understand.",
+      "japanese": "わかりません、ごめんなさい。",
+      "romaji": "wakarimasen, gomen nasai.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-22T20:21:36.323679"
+    },
+    {
+      "english": "Where is the station?",
+      "japanese": "駅はどこですか？",
+      "romaji": "eki wa doko desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-22T20:21:36.323681"
     }
   ],
-  "last_updated": "2026-03-22T17:31:19.018308"
+  "last_updated": "2026-03-22T20:21:36.323682"
 }
