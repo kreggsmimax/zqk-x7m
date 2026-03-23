@@ -1924,7 +1924,42 @@
       "romaji": "Mokuhyou e, yukkuri to.",
       "category": "Success",
       "generated_at": "2026-03-23T12:36:01.743815"
+    },
+    {
+      "english": "Small steps, big progress.",
+      "japanese": "小さな一歩、大きな進歩。",
+      "romaji": "Chiisana ippo, ooki na shinpo.",
+      "category": "Perseverance",
+      "generated_at": "2026-03-23T14:54:10.491301"
+    },
+    {
+      "english": "Mistakes are learning.",
+      "japanese": "間違いは、学びです。",
+      "romaji": "Machigai wa, manabi desu.",
+      "category": "Perseverance",
+      "generated_at": "2026-03-23T14:54:10.491312"
+    },
+    {
+      "english": "Even a little, every day.",
+      "japanese": "毎日、少しずつでも。",
+      "romaji": "Mainichi, sukoshi zutsu demo.",
+      "category": "Perseverance",
+      "generated_at": "2026-03-23T14:54:10.491314"
+    },
+    {
+      "english": "Focus on your goal.",
+      "japanese": "目標に集中して。",
+      "romaji": "Mokuhyou ni shuuchuu shite.",
+      "category": "Perseverance",
+      "generated_at": "2026-03-23T14:54:10.491315"
+    },
+    {
+      "english": "Practice makes perfect.",
+      "japanese": "練習は、完璧を作る。",
+      "romaji": "Renshuu wa, kanpeki o tsukuru.",
+      "category": "Perseverance",
+      "generated_at": "2026-03-23T14:54:10.491316"
     }
   ],
-  "last_updated": "2026-03-23T12:36:01.743817"
+  "last_updated": "2026-03-23T14:54:10.491318"
 }
