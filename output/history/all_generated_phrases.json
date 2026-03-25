@@ -2204,7 +2204,42 @@
       "romaji": "ojiisan, genki desu ka?",
       "category": "Family Terms",
       "generated_at": "2026-03-24T20:36:50.907597"
+    },
+    {
+      "english": "This is the right time.",
+      "japanese": "今が、ちょうどいい時です。",
+      "romaji": "Ima ga, choudo ii toki desu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-25T01:02:25.387520"
+    },
+    {
+      "english": "Before it gets dark.",
+      "japanese": "暗くなる前に。",
+      "romaji": "Kuraku naru mae ni.",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-25T01:02:25.387530"
+    },
+    {
+      "english": "When is the next train?",
+      "japanese": "次の電車は、いつですか？",
+      "romaji": "Tsugi no densha wa, itsu desu ka?",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-25T01:02:25.387532"
+    },
+    {
+      "english": "From now on, I'll try.",
+      "japanese": "これから、頑張ります。",
+      "romaji": "Korekara, ganbarimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-25T01:02:25.387533"
+    },
+    {
+      "english": "It's about time to eat.",
+      "japanese": "そろそろ、食事の時間です。",
+      "romaji": "Sorosoro, shokuji no jikan desu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-03-25T01:02:25.387534"
     }
   ],
-  "last_updated": "2026-03-24T20:36:50.907599"
+  "last_updated": "2026-03-25T01:02:25.387536"
 }
