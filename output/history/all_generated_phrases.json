@@ -2344,7 +2344,42 @@
       "romaji": "Yaa, kyou no junbi wa dekimashita ka?",
       "category": "Greetings",
       "generated_at": "2026-03-26T12:43:46.081012"
+    },
+    {
+      "english": "Help me, please. I'm lost.",
+      "japanese": "助けてください、道に迷いました。",
+      "romaji": "Tasukete kudasai, michi ni mayoi mashita.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-03-26T17:37:02.001298"
+    },
+    {
+      "english": "I need a doctor, urgently.",
+      "japanese": "医者が必要です、急いで。",
+      "romaji": "Isha ga hitsuyou desu, isoide.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-03-26T17:37:02.001308"
+    },
+    {
+      "english": "Call the police, right now.",
+      "japanese": "警察を呼んでください、今すぐ。",
+      "romaji": "Keisatsu o yonde kudasai, ima sugu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-03-26T17:37:02.001310"
+    },
+    {
+      "english": "Is there a hospital nearby?",
+      "japanese": "近くに病院はありますか？",
+      "romaji": "Chikaku ni byouin wa arimasu ka?",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-03-26T17:37:02.001311"
+    },
+    {
+      "english": "I'm feeling very sick.",
+      "japanese": "気分が悪いです、とても。",
+      "romaji": "Kibun ga warui desu, totemo.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-03-26T17:37:02.001312"
     }
   ],
-  "last_updated": "2026-03-26T12:43:46.081014"
+  "last_updated": "2026-03-26T17:37:02.001314"
 }
