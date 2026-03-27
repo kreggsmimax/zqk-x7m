@@ -2484,7 +2484,42 @@
       "romaji": "juukko, juukko ga kanpeki desu.",
       "category": "Numbers Japanese",
       "generated_at": "2026-03-27T12:34:08.095474"
+    },
+    {
+      "english": "This, is delicious.",
+      "japanese": "これは、美味しいです。",
+      "romaji": "kore wa, oishii desu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-27T14:48:28.739062"
+    },
+    {
+      "english": "Nice to meet you.",
+      "japanese": "はじめまして、どうぞよろしく。",
+      "romaji": "hajimemashite, douzo yoroshiku.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-27T14:48:28.739072"
+    },
+    {
+      "english": "Goodbye, see you.",
+      "japanese": "さようなら、またね。",
+      "romaji": "sayounara, mata ne.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-27T14:48:28.739074"
+    },
+    {
+      "english": "Can I have this?",
+      "japanese": "これを、もらってもいいですか？",
+      "romaji": "kore o, morattemo ii desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-27T14:48:28.739075"
+    },
+    {
+      "english": "It's okay, no problem.",
+      "japanese": "大丈夫です、問題ありません。",
+      "romaji": "daijoubu desu, mondai arimasen.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-03-27T14:48:28.739077"
     }
   ],
-  "last_updated": "2026-03-27T12:34:08.095476"
+  "last_updated": "2026-03-27T14:48:28.739079"
 }
