@@ -2449,7 +2449,42 @@
       "romaji": "Mirai o mezasou, issho ni.",
       "category": "Hope",
       "generated_at": "2026-03-26T20:31:54.864606"
+    },
+    {
+      "english": "Six, we need six.",
+      "japanese": "六つ、私たちには六つ必要です。",
+      "romaji": "muttsu, watashitachi ni wa muttsu hitsuyou desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-03-27T12:34:08.095460"
+    },
+    {
+      "english": "Seven, it's seven o'clock.",
+      "japanese": "七時、七時です。",
+      "romaji": "shichiji, shichiji desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-03-27T12:34:08.095469"
+    },
+    {
+      "english": "Eight, can you make eight?",
+      "japanese": "八つ、八つ作れますか？",
+      "romaji": "yattsu, yattsu tsukuremasu ka?",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-03-27T12:34:08.095471"
+    },
+    {
+      "english": "Nine, almost ten, right?",
+      "japanese": "九つ、もうすぐ十ですね？",
+      "romaji": "kokonotsu, mou sugu juu desu ne?",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-03-27T12:34:08.095473"
+    },
+    {
+      "english": "Ten, ten is perfect.",
+      "japanese": "十個、十個が完璧です。",
+      "romaji": "juukko, juukko ga kanpeki desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-03-27T12:34:08.095474"
     }
   ],
-  "last_updated": "2026-03-26T20:31:54.864608"
+  "last_updated": "2026-03-27T12:34:08.095476"
 }
