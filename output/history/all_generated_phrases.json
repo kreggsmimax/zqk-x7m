@@ -2624,7 +2624,42 @@
       "romaji": "Yoku kiite, hakkiri hanashite, joutatsu.",
       "category": "Motivation",
       "generated_at": "2026-03-28T01:01:54.257859"
+    },
+    {
+      "english": "What, wonderful news!",
+      "japanese": "なんて、素晴らしい知らせ！",
+      "romaji": "nante, subarashii shirase!",
+      "category": "Joy",
+      "generated_at": "2026-03-28T14:30:54.090931"
+    },
+    {
+      "english": "I feel, so good.",
+      "japanese": "とても、気分が良いです。",
+      "romaji": "totemo, kibun ga ii desu.",
+      "category": "Joy",
+      "generated_at": "2026-03-28T14:30:54.090944"
+    },
+    {
+      "english": "A moment, of pure joy.",
+      "japanese": "純粋な、喜びに満ちた瞬間。",
+      "romaji": "junsui na, yorokobi ni michita shunkan.",
+      "category": "Joy",
+      "generated_at": "2026-03-28T14:30:54.090947"
+    },
+    {
+      "english": "This is, amazing!",
+      "japanese": "これは、すごい！",
+      "romaji": "kore wa, sugoi!",
+      "category": "Joy",
+      "generated_at": "2026-03-28T14:30:54.090949"
+    },
+    {
+      "english": "My heart, feels light.",
+      "japanese": "心が、軽やかです。",
+      "romaji": "kokoro ga, karoyaka desu.",
+      "category": "Joy",
+      "generated_at": "2026-03-28T14:30:54.090952"
     }
   ],
-  "last_updated": "2026-03-28T01:01:54.257861"
+  "last_updated": "2026-03-28T14:30:54.090955"
 }
