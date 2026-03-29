@@ -2694,7 +2694,42 @@
       "romaji": "chousen o, ukeireyou.",
       "category": "Courage",
       "generated_at": "2026-03-28T17:36:03.954269"
+    },
+    {
+      "english": "That's interesting, isn't it?",
+      "japanese": "面白いですね、それは。",
+      "romaji": "omoshiroi desu ne, sore wa.",
+      "category": "Common Expressions",
+      "generated_at": "2026-03-29T12:26:51.758190"
+    },
+    {
+      "english": "Good luck, with that.",
+      "japanese": "頑張ってくださいね。",
+      "romaji": "ganbatte kudasai ne.",
+      "category": "Common Expressions",
+      "generated_at": "2026-03-29T12:26:51.758199"
+    },
+    {
+      "english": "I'm looking forward, to it.",
+      "japanese": "楽しみにしています。",
+      "romaji": "tanoshimi ni shite imasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-03-29T12:26:51.758200"
+    },
+    {
+      "english": "What do you think?",
+      "japanese": "どう思いますか？",
+      "romaji": "dou omoimasu ka?",
+      "category": "Common Expressions",
+      "generated_at": "2026-03-29T12:26:51.758202"
+    },
+    {
+      "english": "See you, later.",
+      "japanese": "また後で。",
+      "romaji": "mata ato de.",
+      "category": "Common Expressions",
+      "generated_at": "2026-03-29T12:26:51.758203"
     }
   ],
-  "last_updated": "2026-03-28T17:36:03.954270"
+  "last_updated": "2026-03-29T12:26:51.758204"
 }
