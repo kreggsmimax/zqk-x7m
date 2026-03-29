@@ -2799,7 +2799,42 @@
       "romaji": "kyou, atarashii mono o souzou shiyou.",
       "category": "Creativity",
       "generated_at": "2026-03-29T17:37:50.166110"
+    },
+    {
+      "english": "I beg your pardon, sorry.",
+      "japanese": "失礼しました、ごめんなさい。",
+      "romaji": "shitsurei shimashita, gomen nasai.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-29T20:25:55.434940"
+    },
+    {
+      "english": "I made a mistake, I'm sorry.",
+      "japanese": "間違いをしました、すみません。",
+      "romaji": "machigai o shimashita, sumimasen.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-29T20:25:55.434949"
+    },
+    {
+      "english": "Please accept my apology.",
+      "japanese": "謝罪を受け入れてください。",
+      "romaji": "shazai o ukeirete kudasai.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-29T20:25:55.434950"
+    },
+    {
+      "english": "I'm really, very sorry.",
+      "japanese": "本当に、とても悪かったです。",
+      "romaji": "hontou ni, totemo warukatta desu.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-29T20:25:55.434952"
+    },
+    {
+      "english": "Forgive this one time, please.",
+      "japanese": "今回だけ、許してください。",
+      "romaji": "konkai dake, yurushite kudasai.",
+      "category": "Forgiveness",
+      "generated_at": "2026-03-29T20:25:55.434953"
     }
   ],
-  "last_updated": "2026-03-29T17:37:50.166112"
+  "last_updated": "2026-03-29T20:25:55.434954"
 }
