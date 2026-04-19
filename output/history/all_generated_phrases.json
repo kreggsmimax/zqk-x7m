@@ -3009,7 +3009,42 @@
       "romaji": "fukaku, kansha shimasu.",
       "category": "Gratitude",
       "generated_at": "2026-04-19T12:59:00.706543"
+    },
+    {
+      "english": "Grandmother, I love you.",
+      "japanese": "おばあさん、大好きです。",
+      "romaji": "obaasan, daisuki desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-04-19T17:33:50.814313"
+    },
+    {
+      "english": "My uncle, he is funny.",
+      "japanese": "叔父は、面白いです。",
+      "romaji": "oji wa, omoshiroi desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-04-19T17:33:50.814323"
+    },
+    {
+      "english": "Aunt, thank you so much.",
+      "japanese": "叔母さん、ありがとうございます。",
+      "romaji": "obasan, arigatou gozaimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-04-19T17:33:50.814325"
+    },
+    {
+      "english": "Cousin, let's meet soon.",
+      "japanese": "いとこ、またね。",
+      "romaji": "itoko, mata ne.",
+      "category": "Family Terms",
+      "generated_at": "2026-04-19T17:33:50.814326"
+    },
+    {
+      "english": "My whole family, happy.",
+      "japanese": "家族みんな、幸せ。",
+      "romaji": "kazoku minna, shiawase.",
+      "category": "Family Terms",
+      "generated_at": "2026-04-19T17:33:50.814327"
     }
   ],
-  "last_updated": "2026-04-19T12:59:00.706544"
+  "last_updated": "2026-04-19T17:33:50.814329"
 }
