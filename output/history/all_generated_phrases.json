@@ -2974,7 +2974,42 @@
       "romaji": "Anata to issho ni, itai no desu.",
       "category": "Love",
       "generated_at": "2026-03-31T12:44:17.418428"
+    },
+    {
+      "english": "I'm so grateful, truly.",
+      "japanese": "心から、感謝しています。",
+      "romaji": "kokoro kara, kansha shite imasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-04-19T12:59:00.706532"
+    },
+    {
+      "english": "That was kind, of you.",
+      "japanese": "親切に、どうも。",
+      "romaji": "shinsetsu ni, dōmo.",
+      "category": "Gratitude",
+      "generated_at": "2026-04-19T12:59:00.706539"
+    },
+    {
+      "english": "I appreciate, this effort.",
+      "japanese": "この努力に、感謝です。",
+      "romaji": "kono doryoku ni, kansha desu.",
+      "category": "Gratitude",
+      "generated_at": "2026-04-19T12:59:00.706540"
+    },
+    {
+      "english": "You're a lifesaver, thank you.",
+      "japanese": "助かりました、ありがとう。",
+      "romaji": "tasukarimashita, arigatō.",
+      "category": "Gratitude",
+      "generated_at": "2026-04-19T12:59:00.706542"
+    },
+    {
+      "english": "Deeply, thankful.",
+      "japanese": "深く、感謝します。",
+      "romaji": "fukaku, kansha shimasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-04-19T12:59:00.706543"
     }
   ],
-  "last_updated": "2026-03-31T12:44:17.418430"
+  "last_updated": "2026-04-19T12:59:00.706544"
 }
