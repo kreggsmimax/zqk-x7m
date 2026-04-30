@@ -3219,7 +3219,42 @@
       "romaji": "Itsumo, anata no koto o kangaete imasu.",
       "category": "Love",
       "generated_at": "2026-04-29T20:52:25.409785"
+    },
+    {
+      "english": "Believe in yourself, go forward.",
+      "japanese": "自分を信じて、進もう。",
+      "romaji": "Jibun o shinjite, susumou.",
+      "category": "Courage",
+      "generated_at": "2026-04-30T13:51:34.440534"
+    },
+    {
+      "english": "Face the challenge, with a smile.",
+      "japanese": "挑戦に立ち向かおう、笑顔で。",
+      "romaji": "Chousen ni tachimukao, egao de.",
+      "category": "Courage",
+      "generated_at": "2026-04-30T13:51:34.440545"
+    },
+    {
+      "english": "Don't give up, try again.",
+      "japanese": "諦めないで、もう一度。",
+      "romaji": "Akiramenaide, mou ichido.",
+      "category": "Courage",
+      "generated_at": "2026-04-30T13:51:34.440546"
+    },
+    {
+      "english": "Take a deep breath, start now.",
+      "japanese": "深呼吸して、今始めよう。",
+      "romaji": "Shinkokyuu shite, ima hajimeyou.",
+      "category": "Courage",
+      "generated_at": "2026-04-30T13:51:34.440548"
+    },
+    {
+      "english": "Even if it's scary, be brave.",
+      "japanese": "怖くても、勇敢に。",
+      "romaji": "Kowakutemo, yuukan ni.",
+      "category": "Courage",
+      "generated_at": "2026-04-30T13:51:34.440549"
     }
   ],
-  "last_updated": "2026-04-29T20:52:25.409786"
+  "last_updated": "2026-04-30T13:51:34.440550"
 }
