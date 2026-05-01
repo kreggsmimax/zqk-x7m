@@ -14,6 +14,61 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+def _post_pinned_comment(video_id, description, access_token, page_id):
+    """Post the description as a pinned comment on the uploaded video."""
+    import time
+    print(f"[facebook] Posting description as pinned comment...")
+
+    max_retries = 5
+    comment_id = None
+
+    for attempt in range(max_retries):
+        try:
+            comment_url = f"https://graph.facebook.com/v21.0/{video_id}/comments"
+            comment_data = {
+                'access_token': access_token,
+                'message': description
+            }
+            res_comment = requests.post(comment_url, data=comment_data, timeout=30)
+
+            if res_comment.status_code == 200:
+                resp = res_comment.json()
+                comment_id = resp.get('id')
+                if comment_id:
+                    print(f"[facebook] ✅ Comment posted! ID: {comment_id}")
+                    break
+                else:
+                    print(f"[facebook] Comment response missing ID: {resp}")
+            elif res_comment.status_code == 404 and attempt < max_retries - 1:
+                wait = (attempt + 1) * 10
+                print(f"[facebook] Video not ready for comments yet, retrying in {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"[facebook] Comment post failed: {res_comment.status_code} - {res_comment.text[:200]}")
+                break
+        except Exception as e:
+            print(f"[facebook] Comment post error: {e}")
+            break
+
+    if comment_id:
+        try:
+            pin_url = f"https://graph.facebook.com/v21.0/{comment_id}"
+            pin_data = {
+                'access_token': access_token,
+                'is_pinned': 'true'
+            }
+            res_pin = requests.post(pin_url, data=pin_data, timeout=15)
+            if res_pin.status_code == 200:
+                print(f"[facebook] ✅ Comment pinned to top!")
+            else:
+                print(f"[facebook] Pin attempt: {res_pin.status_code} - {res_pin.text[:200]}")
+                print(f"[facebook] (Comment posted but may need manual pinning)")
+        except Exception as e:
+            print(f"[facebook] Pin attempt error: {e}")
+            print(f"[facebook] (Comment posted but may need manual pinning)")
+    else:
+        print(f"[facebook] Could not post comment (video may need processing time)")
+
 def upload_to_facebook(video_path, description, title="Slapstick Loops"):
     """
     Upload video to Facebook Page as a Reel.
@@ -114,6 +169,10 @@ def upload_to_facebook(video_path, description, title="Slapstick Loops"):
         if res_finish.status_code == 200 and res_finish.json().get('success'):
             print(f"[facebook] ✅ SUCCESS! Reel uploaded to Facebook!")
             print(f"[facebook] Video ID: {video_id}")
+            
+            # Post description as a pinned comment
+            _post_pinned_comment(video_id, description, access_token, page_id)
+            
             print(f"[facebook] Check your Facebook Page Reels tab to see the post.")
             print("=" * 60)
             
