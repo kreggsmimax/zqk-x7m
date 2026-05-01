@@ -3499,7 +3499,42 @@
       "romaji": "kore ni shimasu.",
       "category": "Restaurant Japanese",
       "generated_at": "2026-05-01T14:47:37.666078"
+    },
+    {
+      "english": "Listen closely, then speak.",
+      "japanese": "よく聞いて、それから話そう。",
+      "romaji": "Yoku kiite, sore kara hanasou.",
+      "category": "Wisdom",
+      "generated_at": "2026-05-01T17:58:28.441618"
+    },
+    {
+      "english": "Practice makes perfect, you know.",
+      "japanese": "練習は完璧にするよ、ね。",
+      "romaji": "Renshuu wa kanpeki ni suru yo, ne.",
+      "category": "Wisdom",
+      "generated_at": "2026-05-01T17:58:28.441627"
+    },
+    {
+      "english": "Mistakes are good, for learning.",
+      "japanese": "間違いは良い、学ぶために。",
+      "romaji": "Machigai wa yoi, manabu tame ni.",
+      "category": "Wisdom",
+      "generated_at": "2026-05-01T17:58:28.441629"
+    },
+    {
+      "english": "One step at a time.",
+      "japanese": "一度に、一歩ずつ。",
+      "romaji": "Ichido ni, ippo zutsu.",
+      "category": "Wisdom",
+      "generated_at": "2026-05-01T17:58:28.441630"
+    },
+    {
+      "english": "Celebrate small wins, always.",
+      "japanese": "小さな勝利を、いつも祝おう。",
+      "romaji": "Chiisana shouri wo, itsumo iwaou.",
+      "category": "Wisdom",
+      "generated_at": "2026-05-01T17:58:28.441632"
     }
   ],
-  "last_updated": "2026-05-01T14:47:37.666079"
+  "last_updated": "2026-05-01T17:58:28.441633"
 }
