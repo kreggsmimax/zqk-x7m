@@ -3639,7 +3639,42 @@
       "romaji": "Anata no geijutsu, anata no koe.",
       "category": "Creativity",
       "generated_at": "2026-05-02T13:07:40.225776"
+    },
+    {
+      "english": "Hello there, how are you?",
+      "japanese": "こんにちは、お元気ですか？",
+      "romaji": "konnichiwa, ogenki desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T14:41:59.521964"
+    },
+    {
+      "english": "Thank you very much, really.",
+      "japanese": "本当に、ありがとうございます。",
+      "romaji": "hontou ni, arigatou gozaimasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T14:41:59.521976"
+    },
+    {
+      "english": "Excuse me, could I ask?",
+      "japanese": "すみません、ちょっと聞いてもいいですか？",
+      "romaji": "sumimasen, chotto kiite mo ii desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T14:41:59.521977"
+    },
+    {
+      "english": "Nice to meet you, please.",
+      "japanese": "はじめまして、どうぞよろしく。",
+      "romaji": "hajimemashite, douzo yoroshiku.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T14:41:59.521979"
+    },
+    {
+      "english": "I don't understand, sorry.",
+      "japanese": "すみません、わかりません。",
+      "romaji": "sumimasen, wakarimasen.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-05-02T14:41:59.521980"
     }
   ],
-  "last_updated": "2026-05-02T13:07:40.225777"
+  "last_updated": "2026-05-02T14:41:59.521982"
 }
