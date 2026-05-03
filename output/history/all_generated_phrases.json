@@ -3884,7 +3884,42 @@
       "romaji": "Yuuki aru kokoro de, katsu.",
       "category": "Courage",
       "generated_at": "2026-05-03T17:44:30.347356"
+    },
+    {
+      "english": "Let's make, a new start.",
+      "japanese": "新しい事を, 始めましょう。",
+      "romaji": "atarashii koto o, hajimemashou.",
+      "category": "Purpose",
+      "generated_at": "2026-05-03T20:32:44.723591"
+    },
+    {
+      "english": "I want to, learn quickly.",
+      "japanese": "早く, 習得したいです。",
+      "romaji": "hayaku, shuutoku shitai desu.",
+      "category": "Purpose",
+      "generated_at": "2026-05-03T20:32:44.723601"
+    },
+    {
+      "english": "This is, for practice.",
+      "japanese": "これは、練習のためです。",
+      "romaji": "kore wa, renshuu no tame desu.",
+      "category": "Purpose",
+      "generated_at": "2026-05-03T20:32:44.723602"
+    },
+    {
+      "english": "We aim to, improve.",
+      "japanese": "向上を, 目指しています。",
+      "romaji": "koujou o, mezashite imasu.",
+      "category": "Purpose",
+      "generated_at": "2026-05-03T20:32:44.723604"
+    },
+    {
+      "english": "We work, to achieve.",
+      "japanese": "達成するために, 働きます。",
+      "romaji": "tassei suru tame ni, hatarakimasu.",
+      "category": "Purpose",
+      "generated_at": "2026-05-03T20:32:44.723605"
     }
   ],
-  "last_updated": "2026-05-03T17:44:30.347358"
+  "last_updated": "2026-05-03T20:32:44.723610"
 }
