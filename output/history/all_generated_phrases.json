@@ -3919,7 +3919,42 @@
       "romaji": "tassei suru tame ni, hatarakimasu.",
       "category": "Purpose",
       "generated_at": "2026-05-03T20:32:44.723605"
+    },
+    {
+      "english": "Thanks for always, being there.",
+      "japanese": "いつも、ありがとう。",
+      "romaji": "itsumo, arigatou.",
+      "category": "Friendship",
+      "generated_at": "2026-05-04T02:30:17.992764"
+    },
+    {
+      "english": "Let's hang out, soon.",
+      "japanese": "また、遊ぼうね。",
+      "romaji": "mata, asobou ne.",
+      "category": "Friendship",
+      "generated_at": "2026-05-04T02:30:17.992772"
+    },
+    {
+      "english": "You're my best friend.",
+      "japanese": "君は親友だよ。",
+      "romaji": "kimi wa shin'yuu da yo.",
+      "category": "Friendship",
+      "generated_at": "2026-05-04T02:30:17.992774"
+    },
+    {
+      "english": "I'm happy, with you.",
+      "japanese": "あなたといると、嬉しい。",
+      "romaji": "anata to iru to, ureshii.",
+      "category": "Friendship",
+      "generated_at": "2026-05-04T02:30:17.992775"
+    },
+    {
+      "english": "Let's make, more memories.",
+      "japanese": "もっと、思い出作ろう。",
+      "romaji": "motto, omoide tsukurou.",
+      "category": "Friendship",
+      "generated_at": "2026-05-04T02:30:17.992776"
     }
   ],
-  "last_updated": "2026-05-03T20:32:44.723610"
+  "last_updated": "2026-05-04T02:30:17.992778"
 }
