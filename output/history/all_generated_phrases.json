@@ -4059,7 +4059,42 @@
       "romaji": "Kono kikai ni, kansha shite imasu.",
       "category": "Gratitude",
       "generated_at": "2026-05-04T20:58:43.579897"
+    },
+    {
+      "english": "Do you have this, in blue?",
+      "japanese": "これの、青いのはありますか？",
+      "romaji": "Kore no, aoi no wa arimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-05-05T02:25:04.821396"
+    },
+    {
+      "english": "This is too big.",
+      "japanese": "これは大きすぎます。",
+      "romaji": "Kore wa ooki sugimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-05-05T02:25:04.821405"
+    },
+    {
+      "english": "Do you have a smaller size?",
+      "japanese": "もっと小さいサイズはありますか？",
+      "romaji": "Motto chiisai saizu wa arimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-05-05T02:25:04.821407"
+    },
+    {
+      "english": "Where is the fitting room?",
+      "japanese": "試着室はどこですか？",
+      "romaji": "Shichakushitsu wa doko desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-05-05T02:25:04.821408"
+    },
+    {
+      "english": "Can I pay by credit card?",
+      "japanese": "クレジットカードで払えますか？",
+      "romaji": "Kurejitto kādo de haraemasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-05-05T02:25:04.821409"
     }
   ],
-  "last_updated": "2026-05-04T20:58:43.579899"
+  "last_updated": "2026-05-05T02:25:04.821411"
 }
