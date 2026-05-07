@@ -4164,7 +4164,42 @@
       "romaji": "uchinaru heiwa, gainaru shizukesa.",
       "category": "Balance",
       "generated_at": "2026-05-07T02:31:26.639407"
+    },
+    {
+      "english": "Now is the time, to start.",
+      "japanese": "今こそ, 始める時です。",
+      "romaji": "Ima koso, hajimeru toki desu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-07T14:04:39.659003"
+    },
+    {
+      "english": "Time flies, doesn't it?",
+      "japanese": "時間が経つのは、早いですね。",
+      "romaji": "Jikan ga tatsu no wa, hayai desu ne.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-07T14:04:39.659014"
+    },
+    {
+      "english": "A little later, please.",
+      "japanese": "もう少し後で、お願いします。",
+      "romaji": "Mō sukoshi ato de, onegaishimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-07T14:04:39.659015"
+    },
+    {
+      "english": "What time is it, now?",
+      "japanese": "今、何時ですか？",
+      "romaji": "Ima, nanji desu ka?",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-07T14:04:39.659017"
+    },
+    {
+      "english": "It's almost time, to go.",
+      "japanese": "もう行く時間です。",
+      "romaji": "Mō iku jikan desu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-07T14:04:39.659018"
     }
   ],
-  "last_updated": "2026-05-07T02:31:26.639409"
+  "last_updated": "2026-05-07T14:04:39.659020"
 }
