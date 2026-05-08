@@ -4304,7 +4304,42 @@
       "romaji": "Kore wa subarashii, hontou ni.",
       "category": "Joy",
       "generated_at": "2026-05-08T13:32:23.146964"
+    },
+    {
+      "english": "My goal is, connection.",
+      "japanese": "目標は、繋がることです。",
+      "romaji": "mokuhyou wa, tsunagaru koto desu.",
+      "category": "Purpose",
+      "generated_at": "2026-05-08T15:26:18.036260"
+    },
+    {
+      "english": "To understand, deeply.",
+      "japanese": "深く, 理解するために。",
+      "romaji": "fukaku, rikai suru tame ni.",
+      "category": "Purpose",
+      "generated_at": "2026-05-08T15:26:18.036270"
+    },
+    {
+      "english": "We strive, for fluency.",
+      "japanese": "流暢さを, 目指して努力します。",
+      "romaji": "ryuuchou sa o, mezashite doryoku shimasu.",
+      "category": "Purpose",
+      "generated_at": "2026-05-08T15:26:18.036271"
+    },
+    {
+      "english": "For better, communication.",
+      "japanese": "より良い, コミュニケーションのために。",
+      "romaji": "yori yoi, komyunikeeshon no tame ni.",
+      "category": "Purpose",
+      "generated_at": "2026-05-08T15:26:18.036272"
+    },
+    {
+      "english": "Let's build, a future.",
+      "japanese": "未来を, 築きましょう。",
+      "romaji": "mirai o, kizukimashou.",
+      "category": "Purpose",
+      "generated_at": "2026-05-08T15:26:18.036273"
     }
   ],
-  "last_updated": "2026-05-08T13:32:23.146966"
+  "last_updated": "2026-05-08T15:26:18.036274"
 }
