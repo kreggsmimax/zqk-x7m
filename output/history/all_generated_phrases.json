@@ -4269,7 +4269,42 @@
       "romaji": "ani wa, tsuyoi desu.",
       "category": "Family Terms",
       "generated_at": "2026-05-07T18:22:29.362668"
+    },
+    {
+      "english": "Everything is going well.",
+      "japanese": "全てが順調だよ。",
+      "romaji": "Subete ga junchou da yo.",
+      "category": "Joy",
+      "generated_at": "2026-05-08T13:32:23.146950"
+    },
+    {
+      "english": "Pure joy, right now.",
+      "japanese": "純粋な喜び、今。",
+      "romaji": "Junsui na yorokobi, ima.",
+      "category": "Joy",
+      "generated_at": "2026-05-08T13:32:23.146960"
+    },
+    {
+      "english": "So proud of you.",
+      "japanese": "君を誇りに思うよ。",
+      "romaji": "Kimi o hokori ni omou yo.",
+      "category": "Joy",
+      "generated_at": "2026-05-08T13:32:23.146962"
+    },
+    {
+      "english": "A great achievement, yes!",
+      "japanese": "大きな達成感、いいね！",
+      "romaji": "Ookina tasseikan, ii ne!",
+      "category": "Joy",
+      "generated_at": "2026-05-08T13:32:23.146963"
+    },
+    {
+      "english": "This is wonderful, really.",
+      "japanese": "これは素晴らしい、本当に。",
+      "romaji": "Kore wa subarashii, hontou ni.",
+      "category": "Joy",
+      "generated_at": "2026-05-08T13:32:23.146964"
     }
   ],
-  "last_updated": "2026-05-07T18:22:29.362670"
+  "last_updated": "2026-05-08T13:32:23.146966"
 }
