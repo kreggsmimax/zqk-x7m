@@ -4549,7 +4549,42 @@
       "romaji": "Chōdo yūshoku no jikan ni, man'aimashita.",
       "category": "Time Japanese",
       "generated_at": "2026-05-11T16:25:07.988705"
+    },
+    {
+      "english": "Glad we met, truly.",
+      "japanese": "出会えて、よかった。",
+      "romaji": "deaete, yokatta.",
+      "category": "Friendship",
+      "generated_at": "2026-05-11T19:00:06.400408"
+    },
+    {
+      "english": "You always, make me smile.",
+      "japanese": "いつも、笑顔にしてくれる。",
+      "romaji": "itsumo, egao ni shite kureru.",
+      "category": "Friendship",
+      "generated_at": "2026-05-11T19:00:06.400422"
+    },
+    {
+      "english": "I can tell you, anything.",
+      "japanese": "何でも話せるよ。",
+      "romaji": "nan demo hanaseru yo.",
+      "category": "Friendship",
+      "generated_at": "2026-05-11T19:00:06.400423"
+    },
+    {
+      "english": "Let's support, each other.",
+      "japanese": "お互い、支え合おう。",
+      "romaji": "otagai, sasae aou.",
+      "category": "Friendship",
+      "generated_at": "2026-05-11T19:00:06.400425"
+    },
+    {
+      "english": "You're important, to me.",
+      "japanese": "君は大切だよ。",
+      "romaji": "kimi wa taisetsu da yo.",
+      "category": "Friendship",
+      "generated_at": "2026-05-11T19:00:06.400426"
     }
   ],
-  "last_updated": "2026-05-11T16:25:07.988706"
+  "last_updated": "2026-05-11T19:00:06.400428"
 }
