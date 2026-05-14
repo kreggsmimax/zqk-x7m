@@ -4689,7 +4689,42 @@
       "romaji": "ii koto o, yoku kangaeou.",
       "category": "Kindness",
       "generated_at": "2026-05-13T21:17:44.429969"
+    },
+    {
+      "english": "My younger sister, she's cute.",
+      "japanese": "妹は、かわいいです。",
+      "romaji": "imouto wa, kawaii desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-14T19:57:24.258201"
+    },
+    {
+      "english": "My grandmother, she cooks well.",
+      "japanese": "祖母は、料理が上手です。",
+      "romaji": "sobo wa, ryouri ga jouzu desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-14T19:57:24.258213"
+    },
+    {
+      "english": "My grandfather, he tells stories.",
+      "japanese": "祖父は、話が上手です。",
+      "romaji": "sofu wa, hanashi ga jouzu desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-14T19:57:24.258214"
+    },
+    {
+      "english": "My parents, they are happy.",
+      "japanese": "両親は、幸せそうです。",
+      "romaji": "ryoushin wa, shiawase sou desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-14T19:57:24.258216"
+    },
+    {
+      "english": "My family, we are close.",
+      "japanese": "私の家族は、仲が良いです。",
+      "romaji": "watashi no kazoku wa, naka ga ii desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-14T19:57:24.258217"
     }
   ],
-  "last_updated": "2026-05-13T21:17:44.429970"
+  "last_updated": "2026-05-14T19:57:24.258219"
 }
