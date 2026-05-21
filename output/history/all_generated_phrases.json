@@ -4899,7 +4899,42 @@
       "romaji": "Yoku yatte iru ne, sono mama.",
       "category": "Success",
       "generated_at": "2026-05-21T12:39:34.671391"
+    },
+    {
+      "english": "Right now, let's go.",
+      "japanese": "今すぐ、行きましょう。",
+      "romaji": "Ima sugu, ikimashou.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-21T15:20:19.984826"
+    },
+    {
+      "english": "In the morning, I wake up.",
+      "japanese": "朝、起きます。",
+      "romaji": "Asa, okimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-21T15:20:19.984835"
+    },
+    {
+      "english": "Later, I will call.",
+      "japanese": "後で、電話します。",
+      "romaji": "Ato de, denwa shimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-21T15:20:19.984837"
+    },
+    {
+      "english": "Yesterday, it rained.",
+      "japanese": "昨日、雨でした。",
+      "romaji": "Kinou, ame deshita.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-21T15:20:19.984838"
+    },
+    {
+      "english": "Tomorrow, is a holiday.",
+      "japanese": "明日は、休日です。",
+      "romaji": "Ashita wa, kyuujitsu desu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-05-21T15:20:19.984839"
     }
   ],
-  "last_updated": "2026-05-21T12:39:34.671392"
+  "last_updated": "2026-05-21T15:20:19.984841"
 }
