@@ -4969,7 +4969,42 @@
       "romaji": "subete no kotoba ni, imi ga aru.",
       "category": "Wisdom",
       "generated_at": "2026-05-21T16:41:27.913731"
+    },
+    {
+      "english": "My mom, is very kind.",
+      "japanese": "母は、とても優しいです。",
+      "romaji": "haha wa, totemo yasashii desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-21T18:07:28.706584"
+    },
+    {
+      "english": "My dad, likes to read.",
+      "japanese": "父は、本を読むのが好きです。",
+      "romaji": "chichi wa, hon o yomu no ga suki desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-21T18:07:28.706599"
+    },
+    {
+      "english": "My older brother, is a student.",
+      "japanese": "兄は、学生です。",
+      "romaji": "ani wa, gakusei desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-21T18:07:28.706601"
+    },
+    {
+      "english": "My older sister, cooks well.",
+      "japanese": "姉は、料理が上手です。",
+      "romaji": "ane wa, ryouri ga jouzu desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-21T18:07:28.706603"
+    },
+    {
+      "english": "My younger brother, is lively.",
+      "japanese": "弟は、元気いっぱいです。",
+      "romaji": "otouto wa, genki ippai desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-05-21T18:07:28.706604"
     }
   ],
-  "last_updated": "2026-05-21T16:41:27.913732"
+  "last_updated": "2026-05-21T18:07:28.706606"
 }
