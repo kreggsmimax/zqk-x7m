@@ -4864,7 +4864,42 @@
       "romaji": "Kokoro de souzou shi, yorokobi o wakachiaou.",
       "category": "Creativity",
       "generated_at": "2026-05-19T23:13:13.921323"
+    },
+    {
+      "english": "Your effort, is paying off.",
+      "japanese": "あなたの努力は、実を結ぶ。",
+      "romaji": "Anata no doryoku wa, mi o musubu.",
+      "category": "Success",
+      "generated_at": "2026-05-21T12:39:34.671375"
+    },
+    {
+      "english": "Each day, learn something new.",
+      "japanese": "毎日、新しいことを学ぼう。",
+      "romaji": "Mainichi, atarashii koto o manabou.",
+      "category": "Success",
+      "generated_at": "2026-05-21T12:39:34.671387"
+    },
+    {
+      "english": "Don't give up, keep pushing.",
+      "japanese": "諦めないで、前へ進もう。",
+      "romaji": "Akiramenai de, mae e susumou.",
+      "category": "Success",
+      "generated_at": "2026-05-21T12:39:34.671388"
+    },
+    {
+      "english": "The journey, is just beginning.",
+      "japanese": "旅は、まだ始まったばかり。",
+      "romaji": "Tabi wa, mada hajimatta bakari.",
+      "category": "Success",
+      "generated_at": "2026-05-21T12:39:34.671389"
+    },
+    {
+      "english": "You're doing great, keep it up.",
+      "japanese": "よくやっているね、そのまま。",
+      "romaji": "Yoku yatte iru ne, sono mama.",
+      "category": "Success",
+      "generated_at": "2026-05-21T12:39:34.671391"
     }
   ],
-  "last_updated": "2026-05-19T23:13:13.921325"
+  "last_updated": "2026-05-21T12:39:34.671392"
 }
