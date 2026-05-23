@@ -5494,7 +5494,42 @@
       "romaji": "kenkou no tame, yoku tabete, yoku neyou.",
       "category": "Purpose",
       "generated_at": "2026-05-23T14:53:48.460362"
+    },
+    {
+      "english": "One, a single chance.",
+      "japanese": "一つ、たった一度のチャンス。",
+      "romaji": "Hitotsu, tatta ichido no chansu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-05-23T17:12:57.555557"
+    },
+    {
+      "english": "Two, we can go.",
+      "japanese": "二つ、一緒に行きましょう。",
+      "romaji": "Futatsu, issho ni ikimashou.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-05-23T17:12:57.555567"
+    },
+    {
+      "english": "Three, I'll try my best.",
+      "japanese": "三つ、頑張ります。",
+      "romaji": "Mittsu, ganbarimasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-05-23T17:12:57.555569"
+    },
+    {
+      "english": "Four, see you later.",
+      "japanese": "四つ、また後で。",
+      "romaji": "Yottsu, mata ato de.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-05-23T17:12:57.555570"
+    },
+    {
+      "english": "Five, it's a deal.",
+      "japanese": "五つ、それで決まり。",
+      "romaji": "Itsutsu, sore de kimari.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-05-23T17:12:57.555571"
     }
   ],
-  "last_updated": "2026-05-23T14:53:48.460363"
+  "last_updated": "2026-05-23T17:12:57.555573"
 }
