@@ -5564,7 +5564,42 @@
       "romaji": "Itsumo, arigatou.",
       "category": "Friendship",
       "generated_at": "2026-05-23T19:23:51.720329"
+    },
+    {
+      "english": "Excuse me, do you have a table?",
+      "japanese": "すみません、お席、ありますか？",
+      "romaji": "Sumimasen, oseki, arimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-05-23T20:39:16.953731"
+    },
+    {
+      "english": "Could I see the menu, please?",
+      "japanese": "メニュー、見せてください。",
+      "romaji": "Menyuu, misete kudasai.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-05-23T20:39:16.953744"
+    },
+    {
+      "english": "What do you recommend today?",
+      "japanese": "今日のおすすめは、何ですか？",
+      "romaji": "Kyō no osusume wa, nan desu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-05-23T20:39:16.953745"
+    },
+    {
+      "english": "I'll have this one, please.",
+      "japanese": "これ、お願いします。",
+      "romaji": "Kore, onegaishimasu.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-05-23T20:39:16.953746"
+    },
+    {
+      "english": "Is this spicy, or not?",
+      "japanese": "これ、辛いですか、それとも？",
+      "romaji": "Kore, karai desu ka, soretomo?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-05-23T20:39:16.953747"
     }
   ],
-  "last_updated": "2026-05-23T19:23:51.720330"
+  "last_updated": "2026-05-23T20:39:16.953749"
 }
