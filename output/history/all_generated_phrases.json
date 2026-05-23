@@ -5424,7 +5424,42 @@
       "romaji": "Yurushite kureru to, ureshii desu.",
       "category": "Forgiveness",
       "generated_at": "2026-05-23T02:37:39.326357"
+    },
+    {
+      "english": "Try again, you can do it.",
+      "japanese": "もう一度、できるよ。",
+      "romaji": "mou ichido, dekiru yo.",
+      "category": "Confidence",
+      "generated_at": "2026-05-23T13:21:54.357910"
+    },
+    {
+      "english": "Speak slowly, I understand.",
+      "japanese": "ゆっくり話して、わかります。",
+      "romaji": "yukkuri hanashite, wakarimasu.",
+      "category": "Confidence",
+      "generated_at": "2026-05-23T13:21:54.357918"
+    },
+    {
+      "english": "Don't worry, it's okay.",
+      "japanese": "心配しないで、大丈夫。",
+      "romaji": "shinpai shinaide, daijoubu.",
+      "category": "Confidence",
+      "generated_at": "2026-05-23T13:21:54.357919"
+    },
+    {
+      "english": "You're doing great, keep going.",
+      "japanese": "すごく上手、続けて。",
+      "romaji": "sugoku jouzu, tsuzukete.",
+      "category": "Confidence",
+      "generated_at": "2026-05-23T13:21:54.357921"
+    },
+    {
+      "english": "Ask questions, that's how.",
+      "japanese": "質問して、それが一番。",
+      "romaji": "shitsumon shite, sore ga ichiban.",
+      "category": "Confidence",
+      "generated_at": "2026-05-23T13:21:54.357922"
     }
   ],
-  "last_updated": "2026-05-23T02:37:39.326359"
+  "last_updated": "2026-05-23T13:21:54.357923"
 }
