@@ -5389,7 +5389,42 @@
       "romaji": "Yoku kiite, jibun jishin o.",
       "category": "Inner Peace",
       "generated_at": "2026-05-22T23:12:36.907306"
+    },
+    {
+      "english": "I'm sorry, okay?",
+      "japanese": "ごめんね、いい？",
+      "romaji": "Gomen ne, ii?",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-23T02:37:39.326342"
+    },
+    {
+      "english": "Please forgive me, really.",
+      "japanese": "本当に、許してほしい。",
+      "romaji": "Hontou ni, yurushite hoshii.",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-23T02:37:39.326353"
+    },
+    {
+      "english": "Can you forgive this?",
+      "japanese": "これを、許してもらえますか？",
+      "romaji": "Kore o, yurushite moraemasu ka?",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-23T02:37:39.326354"
+    },
+    {
+      "english": "I messed up, sorry.",
+      "japanese": "やっちゃった、すみません。",
+      "romaji": "Yacchatta, sumimasen.",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-23T02:37:39.326356"
+    },
+    {
+      "english": "I hope you can forgive me.",
+      "japanese": "許してくれると、嬉しいです。",
+      "romaji": "Yurushite kureru to, ureshii desu.",
+      "category": "Forgiveness",
+      "generated_at": "2026-05-23T02:37:39.326357"
     }
   ],
-  "last_updated": "2026-05-22T23:12:36.907308"
+  "last_updated": "2026-05-23T02:37:39.326359"
 }
