@@ -5774,7 +5774,42 @@
       "romaji": "Kibun ga warui desu. Totemo.",
       "category": "Emergency Japanese",
       "generated_at": "2026-05-24T23:04:20.629905"
+    },
+    {
+      "english": "Breathe in, breathe out, peace.",
+      "japanese": "吸って、吐いて、静けさ。",
+      "romaji": "Sutte, haite, shizukesa.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-25T19:53:54.637496"
+    },
+    {
+      "english": "Feel the ground, steady now.",
+      "japanese": "地面を感じて、落ち着いて。",
+      "romaji": "Jimen o kanjite, ochitsuite.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-25T19:53:54.637506"
+    },
+    {
+      "english": "Just this moment, present here.",
+      "japanese": "ただ今、ここにいる。",
+      "romaji": "Tada ima, koko ni iru.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-25T19:53:54.637507"
+    },
+    {
+      "english": "Open your eyes, gently look.",
+      "japanese": "目を開けて、優しく見る。",
+      "romaji": "Me o akete, yasashiku miru.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-25T19:53:54.637509"
+    },
+    {
+      "english": "Listen closely, soft sounds.",
+      "japanese": "よく聞いて、小さな音。",
+      "romaji": "Yoku kiite, chiisana oto.",
+      "category": "Mindfulness",
+      "generated_at": "2026-05-25T19:53:54.637510"
     }
   ],
-  "last_updated": "2026-05-24T23:04:20.629906"
+  "last_updated": "2026-05-25T19:53:54.637511"
 }
