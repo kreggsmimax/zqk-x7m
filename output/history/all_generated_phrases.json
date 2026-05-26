@@ -5809,7 +5809,42 @@
       "romaji": "Yoku kiite, chiisana oto.",
       "category": "Mindfulness",
       "generated_at": "2026-05-25T19:53:54.637510"
+    },
+    {
+      "english": "I'm grateful, for your kindness.",
+      "japanese": "親切に、感謝します。",
+      "romaji": "Shinsetsu ni, kansha shimasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-26T15:22:04.150513"
+    },
+    {
+      "english": "Thanks, for your help.",
+      "japanese": "助けてくれて、ありがとう。",
+      "romaji": "Tasukete kurete, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-26T15:22:04.150521"
+    },
+    {
+      "english": "I appreciate, this opportunity.",
+      "japanese": "この機会に、感謝しています。",
+      "romaji": "Kono kikai ni, kansha shite imasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-26T15:22:04.150523"
+    },
+    {
+      "english": "I'm so thankful, for you.",
+      "japanese": "あなたに、とても感謝しています。",
+      "romaji": "Anata ni, totemo kansha shite imasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-26T15:22:04.150524"
+    },
+    {
+      "english": "Thanks, for remembering.",
+      "japanese": "覚えていてくれて、ありがとう。",
+      "romaji": "Oboete ite kurete, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-05-26T15:22:04.150525"
     }
   ],
-  "last_updated": "2026-05-25T19:53:54.637511"
+  "last_updated": "2026-05-26T15:22:04.150527"
 }
