@@ -6054,7 +6054,42 @@
       "romaji": "Tou, manten desu.",
       "category": "Numbers Japanese",
       "generated_at": "2026-05-27T15:37:01.817630"
+    },
+    {
+      "english": "To improve, try new things.",
+      "japanese": "成長するために、新しいことに挑戦しよう。",
+      "romaji": "seichou suru tame ni, atarashii koto ni chousen shiyou.",
+      "category": "Purpose",
+      "generated_at": "2026-05-27T18:31:25.806874"
+    },
+    {
+      "english": "For fun, let's play a game.",
+      "japanese": "楽しむために、ゲームをしよう。",
+      "romaji": "tanoshimu tame ni, geemu o shiyou.",
+      "category": "Purpose",
+      "generated_at": "2026-05-27T18:31:25.806884"
+    },
+    {
+      "english": "To connect, make friends.",
+      "japanese": "繋がるために、友達を作ろう。",
+      "romaji": "tsunagaru tame ni, tomodachi o tsukurou.",
+      "category": "Purpose",
+      "generated_at": "2026-05-27T18:31:25.806886"
+    },
+    {
+      "english": "For peace, be kind to others.",
+      "japanese": "平和のために、人に優しくしよう。",
+      "romaji": "heiwa no tame ni, hito ni yasashiku shiyou.",
+      "category": "Purpose",
+      "generated_at": "2026-05-27T18:31:25.806887"
+    },
+    {
+      "english": "To succeed, never give up.",
+      "japanese": "成功するために、諦めないで。",
+      "romaji": "seikou suru tame ni, akiramenaide.",
+      "category": "Purpose",
+      "generated_at": "2026-05-27T18:31:25.806888"
     }
   ],
-  "last_updated": "2026-05-27T15:37:01.817632"
+  "last_updated": "2026-05-27T18:31:25.806890"
 }
