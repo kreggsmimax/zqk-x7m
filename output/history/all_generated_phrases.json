@@ -6124,7 +6124,42 @@
       "romaji": "Gochisousama deshita.",
       "category": "Restaurant Japanese",
       "generated_at": "2026-05-27T21:45:23.286981"
+    },
+    {
+      "english": "Mistakes are lessons, learn them.",
+      "japanese": "間違いは学び、活かそう。",
+      "romaji": "Machigai wa manabi, ikasou.",
+      "category": "Perseverance",
+      "generated_at": "2026-05-28T15:48:52.929143"
+    },
+    {
+      "english": "Slow and steady, wins.",
+      "japanese": "ゆっくり着実に、勝利。",
+      "romaji": "Yukkuri chakujitsu ni, shouri.",
+      "category": "Perseverance",
+      "generated_at": "2026-05-28T15:48:52.929155"
+    },
+    {
+      "english": "Every day, a little more.",
+      "japanese": "毎日、少しずつ。",
+      "romaji": "Mainichi, sukoshi zutsu.",
+      "category": "Perseverance",
+      "generated_at": "2026-05-28T15:48:52.929157"
+    },
+    {
+      "english": "You can do it, really.",
+      "japanese": "できるよ、本当に。",
+      "romaji": "Dekiru yo, hontou ni.",
+      "category": "Perseverance",
+      "generated_at": "2026-05-28T15:48:52.929158"
+    },
+    {
+      "english": "Don't fear failure.",
+      "japanese": "失敗を恐れない。",
+      "romaji": "Shippai o osorena.",
+      "category": "Perseverance",
+      "generated_at": "2026-05-28T15:48:52.929160"
     }
   ],
-  "last_updated": "2026-05-27T21:45:23.286982"
+  "last_updated": "2026-05-28T15:48:52.929162"
 }
