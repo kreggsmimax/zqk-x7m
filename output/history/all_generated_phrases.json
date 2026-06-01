@@ -6299,7 +6299,42 @@
       "romaji": "Uchi naru shizukesa, odayakasa.",
       "category": "Mindfulness",
       "generated_at": "2026-06-01T17:35:45.400553"
+    },
+    {
+      "english": "Joyful heart, bright day.",
+      "japanese": "楽しい心、明るい日。",
+      "romaji": "tanoshii kokoro, akarui hi.",
+      "category": "Happiness",
+      "generated_at": "2026-06-01T19:16:04.167729"
+    },
+    {
+      "english": "Smile more, worry less.",
+      "japanese": "もっと笑って、悩み減らそう。",
+      "romaji": "motto waratte, nayami herasou.",
+      "category": "Happiness",
+      "generated_at": "2026-06-01T19:16:04.167738"
+    },
+    {
+      "english": "Find beauty, everywhere.",
+      "japanese": "美しさを見つけよう、どこにでも。",
+      "romaji": "utsukushisa o mitsukeyou, doko ni demo.",
+      "category": "Happiness",
+      "generated_at": "2026-06-01T19:16:04.167739"
+    },
+    {
+      "english": "Peace within, peace without.",
+      "japanese": "内なる平和、外なる平和。",
+      "romaji": "uchinaru heiwa, gainaru heiwa.",
+      "category": "Happiness",
+      "generated_at": "2026-06-01T19:16:04.167740"
+    },
+    {
+      "english": "Cherish small moments.",
+      "japanese": "小さな瞬間を大切に。",
+      "romaji": "chiisana shunkan o taisetsu ni.",
+      "category": "Happiness",
+      "generated_at": "2026-06-01T19:16:04.167742"
     }
   ],
-  "last_updated": "2026-06-01T17:35:45.400555"
+  "last_updated": "2026-06-01T19:16:04.167743"
 }
