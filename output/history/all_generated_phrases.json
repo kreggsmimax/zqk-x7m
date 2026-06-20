@@ -6369,7 +6369,42 @@
       "romaji": "shinpuru na jinsei, michita kokoro.",
       "category": "Happiness",
       "generated_at": "2026-06-07T15:18:40.264622"
+    },
+    {
+      "english": "Wake up, stretch a bit.",
+      "japanese": "起きます、少し伸びます。",
+      "romaji": "Okimasu, sukoshi nobimasu.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-20T16:40:35.069998"
+    },
+    {
+      "english": "Wash face, feel fresh.",
+      "japanese": "顔を洗います、さっぱりします。",
+      "romaji": "Kao o arimasu, sappari shimasu.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-20T16:40:35.070006"
+    },
+    {
+      "english": "Eat breakfast, slowly.",
+      "japanese": "朝ごはんを食べます、ゆっくり。",
+      "romaji": "Asagohan o tabemasu, yukkuri.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-20T16:40:35.070008"
+    },
+    {
+      "english": "Drink coffee, enjoy it.",
+      "japanese": "コーヒーを飲みます、楽しんで。",
+      "romaji": "Kōhī o nomimasu, tanoshinde.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-20T16:40:35.070009"
+    },
+    {
+      "english": "Check phone, see messages.",
+      "japanese": "スマホを見ます、メッセージ確認。",
+      "romaji": "Sumaho o mimasu, messēji kakunin.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-20T16:40:35.070011"
     }
   ],
-  "last_updated": "2026-06-07T15:18:40.264624"
+  "last_updated": "2026-06-20T16:40:35.070012"
 }
