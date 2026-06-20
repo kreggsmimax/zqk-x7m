@@ -6544,7 +6544,42 @@
       "romaji": "kono ryouri wa karai desu ka, yasashii desu ka",
       "category": "Restaurant Japanese",
       "generated_at": "2026-06-20T19:49:50.892743"
+    },
+    {
+      "english": "Help me, please, I need an ambulance",
+      "japanese": "助けてください、救急車が必要です",
+      "romaji": "tasukete kudasai, kyūkyūsha ga hitsuyō desu",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-06-20T21:03:36.840124"
+    },
+    {
+      "english": "Call 119 now, there is a fire",
+      "japanese": "今すぐ119番、火事です",
+      "romaji": "imasugu 119-ban, kaji desu",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-06-20T21:03:36.840133"
+    },
+    {
+      "english": "Stop! This is an emergency, please",
+      "japanese": "止まってください、緊急です",
+      "romaji": "tomatte kudasai, kinkyū desu",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-06-20T21:03:36.840135"
+    },
+    {
+      "english": "I am lost, please help me",
+      "japanese": "道に迷いました、助けてください",
+      "romaji": "michi ni mayoimashita, tasukete kudasai",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-06-20T21:03:36.840136"
+    },
+    {
+      "english": "I can't breathe, call for help",
+      "japanese": "息ができません、助けてください",
+      "romaji": "iki ga dekimasen, tasukete kudasai",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-06-20T21:03:36.840137"
     }
   ],
-  "last_updated": "2026-06-20T19:49:50.892745"
+  "last_updated": "2026-06-20T21:03:36.840139"
 }
