@@ -6509,7 +6509,42 @@
       "romaji": "chiisana kachi o, mainichi atsume you",
       "category": "Motivation",
       "generated_at": "2026-06-20T17:41:56.386061"
+    },
+    {
+      "english": "Excuse me, do you have reservations?",
+      "japanese": "すみません、ご予約はありますか。",
+      "romaji": "sumimasen, goyoyaku wa arimasu ka",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-20T19:49:50.892727"
+    },
+    {
+      "english": "How long is the wait, please?",
+      "japanese": "お待ち時間はどれくらいですか。",
+      "romaji": "omachi jikan wa dore kurai desu ka",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-20T19:49:50.892739"
+    },
+    {
+      "english": "Can I see the menu, please?",
+      "japanese": "メニューを見せてもらえますか。",
+      "romaji": "menyuu o misete moraemasu ka",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-20T19:49:50.892740"
+    },
+    {
+      "english": "I’d like water, no ice, please.",
+      "japanese": "お水は氷なしでお願いします。",
+      "romaji": "omizu wa kori nashi de onegaishimasu",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-20T19:49:50.892742"
+    },
+    {
+      "english": "Is this dish spicy, or mild?",
+      "japanese": "この料理は辛いですか、やさしいですか。",
+      "romaji": "kono ryouri wa karai desu ka, yasashii desu ka",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-20T19:49:50.892743"
     }
   ],
-  "last_updated": "2026-06-20T17:41:56.386063"
+  "last_updated": "2026-06-20T19:49:50.892745"
 }
