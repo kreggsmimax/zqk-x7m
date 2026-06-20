@@ -27,6 +27,9 @@ if not AI_MODEL:
         "For GitHub Actions: Add AI_MODEL to repository secrets."
     )
 
+if not POLLINATIONS_API_KEY:
+    print("[warn] POLLINATIONS_API_KEY not set! AI generation will fail, using fallback phrases.")
+
 # Directories
 BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "output"
@@ -49,12 +52,15 @@ CATEGORIES_ENGLISH = [
     # Essential Japanese Learning (Priority)
     "Greetings", "Basic Phrases", "Common Expressions", "Travel Japanese", "Restaurant Japanese",
     "Shopping Japanese", "Emergency Japanese", "Family Terms", "Numbers Japanese", "Time Japanese",
+    "Weather Japanese", "Direction Japanese", "Colors Japanese", "Body Japanese", "Feelings Japanese",
     # Motivational Categories
     "Motivation", "Love", "Success", "Wisdom", "Happiness",
     "Self Improvement", "Gratitude", "Friendship", "Hope", "Creativity",
     "Inner Peace", "Confidence", "Perseverance", "Inspiration", "Positive Life",
     "Courage", "Kindness", "Patience", "Forgiveness", "Strength",
     "Joy", "Balance", "Growth", "Purpose", "Mindfulness",
+    # Extended Practical Categories
+    "Work Japanese", "Hobbies Japanese", "Daily Routine", "Health Japanese", "Nature Japanese",
 ]
 
 # Japanese translations for display
@@ -70,6 +76,11 @@ CATEGORIES_JAPANESE = {
     "Family Terms": "家族用語",
     "Numbers Japanese": "数字日本語",
     "Time Japanese": "時間日本語",
+    "Weather Japanese": "天気の日本語",
+    "Direction Japanese": "方向の日本語",
+    "Colors Japanese": "色の日本語",
+    "Body Japanese": "体の日本語",
+    "Feelings Japanese": "感情の日本語",
     # Motivational Categories
     "Motivation": "モチベーション",
     "Love": "愛",
@@ -96,6 +107,12 @@ CATEGORIES_JAPANESE = {
     "Growth": "成長",
     "Purpose": "目的",
     "Mindfulness": "マインドフルネス",
+    # Extended Practical Categories
+    "Work Japanese": "仕事の日本語",
+    "Hobbies Japanese": "趣味の日本語",
+    "Daily Routine": "日常の習慣",
+    "Health Japanese": "健康の日本語",
+    "Nature Japanese": "自然の日本語",
 }
 
 # Edge TTS voices
@@ -210,17 +227,19 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
     category_japanese = CATEGORIES_JAPANESE[category_english]
 
     # Try AI first
+    AI_MODELS_FALLBACK = [AI_MODEL, "openai", "mistral", "llama"]
     max_attempts = 3
     for attempt in range(max_attempts):
-        try:
-            import requests
-            url = "https://gen.pollinations.ai/v1/chat/completions"
-            headers = {
-                "Authorization": f"Bearer {POLLINATIONS_API_KEY}",
-                "Content-Type": "application/json"
-            }
+        for model_idx, model in enumerate(AI_MODELS_FALLBACK):
+            try:
+                import requests
+                url = "https://gen.pollinations.ai/v1/chat/completions"
+                headers = {
+                    "Authorization": f"Bearer {POLLINATIONS_API_KEY}",
+                    "Content-Type": "application/json"
+                }
 
-            prompt = f"""Create {num_phrases * 2} unique {category_english} phrases for English speakers learning Japanese.
+                prompt = f"""Create {num_phrases * 2} unique {category_english} phrases for English speakers learning Japanese.
 
 IMPORTANT RULES FOR NATURAL SPEECH:
 1. Keep phrases SHORT (5-12 words max per language)
@@ -242,308 +261,96 @@ Return as JSON array:
 IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before.
 IMPORTANT: Japanese text must be clean - no slashes, no multiple versions."""
 
-            payload = {
-                "model": AI_MODEL,
-                "messages": [
-                    {"role": "system", "content": "You are a Japanese teacher. Create short, natural phrases with pauses."},
-                    {"role": "user", "content": prompt}
-                ],
-                "temperature": 0.9
-            }
+                payload = {
+                    "model": model,
+                    "messages": [
+                        {"role": "system", "content": "You are a Japanese teacher. Create short, natural phrases with pauses."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    "temperature": 0.9
+                }
 
-            response = requests.post(url, headers=headers, json=payload, timeout=60)
-            response.raise_for_status()
-
-            data = response.json()
-            content = data["choices"][0]["message"]["content"].strip()
-
-            # Extract JSON
-            if "```json" in content:
-                content = content.split("```json")[1].split("```")[0].strip()
-            elif "```" in content:
-                content = content.split("```")[1].split("```")[0].strip()
-
-            phrases = json.loads(content)
-
-            # Filter out already-used phrases and ensure proper length
-            unique_phrases = []
-            for phrase in phrases:
-                # Skip if too long (over 15 words)
-                if len(phrase["english"].split()) > 15:
+                response = requests.post(url, headers=headers, json=payload, timeout=60)
+                if response.status_code != 200:
+                    print(f"[content] Attempt {attempt + 1}, model '{model}' returned {response.status_code}: {response.text[:200]}")
                     continue
-                if not is_phrase_used(phrase["english"]):
-                    unique_phrases.append(phrase)
+
+                data = response.json()
+                content = data["choices"][0]["message"]["content"].strip()
+
+                # Extract JSON
+                if "```json" in content:
+                    content = content.split("```json")[1].split("```")[0].strip()
+                elif "```" in content:
+                    content = content.split("```")[1].split("```")[0].strip()
+
+                phrases = json.loads(content)
+
+                # Filter out already-used phrases and ensure proper length
+                unique_phrases = []
+                for phrase in phrases:
+                    if len(phrase["english"].split()) > 15:
+                        continue
+                    if not is_phrase_used(phrase["english"]):
+                        unique_phrases.append(phrase)
+                    if len(unique_phrases) >= num_phrases:
+                        break
+
                 if len(unique_phrases) >= num_phrases:
-                    break
+                    add_phrases_to_history(unique_phrases[:num_phrases], category_english)
+                    print(f"[content] Generated {len(unique_phrases[:num_phrases])} phrases via {model}")
+                    return unique_phrases[:num_phrases]
 
-            if len(unique_phrases) >= num_phrases:
-                add_phrases_to_history(unique_phrases[:num_phrases], category_english)
-                return unique_phrases[:num_phrases]
-
-        except Exception as e:
-            print(f"[content] Attempt {attempt + 1} failed: {e}")
+            except Exception as e:
+                print(f"[content] Attempt {attempt + 1}, model '{model}' failed: {e}")
 
     # Fallback to fresh phrases
-    print("[content] Using fallback phrases...")
+    print("[content] All AI attempts exhausted. Using fallback phrases...")
     return get_fresh_fallback_phrases(category_english, num_phrases)
 
 
 def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
-    """Get fallback phrases, filtering out used ones"""
+    """Get fallback phrases, filtering out used ones, mixing from related categories if depleted"""
+    from fallback_phrases import FALLBACK_PHRASES, RELATED_CATEGORIES
 
-    all_fallbacks = {
-        # Essential Japanese Learning Categories
-        "Greetings": [
-            {"english": "Hello, nice to meet you.", "japanese": "こんにちは、はじめまして。", "romaji": "Konnichiwa, hajimemashite."},
-            {"english": "Good morning!", "japanese": "おはようございます！", "romaji": "Ohayou gozaimasu!"},
-            {"english": "Good evening, how are you?", "japanese": "こんばんは、お元気ですか？", "romaji": "Konbanwa, ogenki desu ka?"},
-            {"english": "See you tomorrow!", "japanese": "また明日！", "romaji": "Mata ashita!"},
-            {"english": "Goodbye, take care.", "japanese": "さようなら、お元気で。", "romaji": "Sayounara, ogenki de."},
-        ],
-        "Basic Phrases": [
-            {"english": "Thank you very much.", "japanese": "ありがとうございます。", "romaji": "Arigatou gozaimasu."},
-            {"english": "You're welcome, no problem.", "japanese": "どういたしまして。", "romaji": "Dou itashimashite."},
-            {"english": "I'm sorry, excuse me.", "japanese": "すみません、ごめんなさい。", "romaji": "Sumimasen, gomennasai."},
-            {"english": "Yes, that's correct.", "japanese": "はい、そうです。", "romaji": "Hai, sou desu."},
-            {"english": "No, I don't think so.", "japanese": "いいえ、ちがいます。", "romaji": "Iie, chigaimasu."},
-        ],
-        "Common Expressions": [
-            {"english": "How are you doing today?", "japanese": "今日はお元気ですか？", "romaji": "Kyou wa ogenki desu ka?"},
-            {"english": "I'm fine, thank you.", "japanese": "元気です、ありがとう。", "romaji": "Genki desu, arigatou."},
-            {"english": "What's your name?", "japanese": "お名前は何ですか？", "romaji": "Onamae wa nan desu ka?"},
-            {"english": "My name is...", "japanese": "私の名前は...です。", "romaji": "Watashi no namae wa... desu."},
-            {"english": "Nice to meet you too.", "japanese": "こちらこそ、はじめまして。", "romaji": "Kochira koso, hajimemashite."},
-        ],
-        "Travel Japanese": [
-            {"english": "Where is the bathroom?", "japanese": "トイレはどこですか？", "romaji": "Toire wa doko desu ka?"},
-            {"english": "How do I get there?", "japanese": "どうやって行きますか？", "romaji": "Douyatte ikimasu ka?"},
-            {"english": "I need a taxi, please.", "japanese": "タクシーが必要です。", "romaji": "Takushii ga hitsuyou desu."},
-            {"english": "Take me to the hotel.", "japanese": "ホテルまでお願いします。", "romaji": "Hoteru made onegaishimasu."},
-            {"english": "How much does it cost?", "japanese": "いくらですか？", "romaji": "Ikura desu ka?"},
-        ],
-        "Restaurant Japanese": [
-            {"english": "Can I see the menu?", "japanese": "メニューを見せてください。", "romaji": "Menyu o misete kudasai."},
-            {"english": "This looks delicious!", "japanese": "美味しそうですね！", "romaji": "Oishisou desu ne!"},
-            {"english": "Water, please.", "japanese": "お水をください。", "romaji": "Omizu o kudasai."},
-            {"english": "Check, please.", "japanese": "お会計をお願いします。", "romaji": "Okaikei o onegaishimasu."},
-            {"english": "It was delicious!", "japanese": "ごちそうさまでした！", "romaji": "Gochisousama deshita!"},
-        ],
-        "Shopping Japanese": [
-            {"english": "How much is this?", "japanese": "これはいくらですか？", "romaji": "Kore wa ikura desu ka?"},
-            {"english": "Can I try this on?", "japanese": "試着してもいいですか？", "romaji": "Shichaku shite mo ii desu ka?"},
-            {"english": "Do you have a smaller size?", "japanese": "もっと小さいサイズはありますか？", "romaji": "Motto chiisai saizu wa arimasu ka?"},
-            {"english": "I'll take this one.", "japanese": "これをお願いします。", "romaji": "Kore o onegaishimasu."},
-            {"english": "Can I pay by card?", "japanese": "カードで払えますか？", "romaji": "Kaado de haraemasu ka?"},
-        ],
-        "Emergency Japanese": [
-            {"english": "Help me, please!", "japanese": "助けてください！", "romaji": "Tasukete kudasai!"},
-            {"english": "Call the police!", "japanese": "警察を呼んでください！", "romaji": "Keisatsu o yonde kudasai!"},
-            {"english": "I need a doctor.", "japanese": "医者が必要です。", "romaji": "Isha ga hitsuyou desu."},
-            {"english": "Where is the hospital?", "japanese": "病院はどこですか？", "romaji": "Byouin wa doko desu ka?"},
-            {"english": "I'm lost, can you help?", "japanese": "道に迷いました、助けてくれますか？", "romaji": "Michi ni mayoimashita, tasukete kuremasu ka?"},
-        ],
-        "Family Terms": [
-            {"english": "This is my mother.", "japanese": "これは私の母です。", "romaji": "Kore wa watashi no haha desu."},
-            {"english": "This is my father.", "japanese": "これは私の父です。", "romaji": "Kore wa watashi no chichi desu."},
-            {"english": "I have an older brother.", "japanese": "私には兄がいます。", "romaji": "Watashi ni wa ani ga imasu."},
-            {"english": "I have a younger sister.", "japanese": "私には妹がいます。", "romaji": "Watashi ni wa imouto ga imasu."},
-            {"english": "These are my parents.", "japanese": "これは私の両親です。", "romaji": "Kore wa watashi no ryoushin desu."},
-        ],
-        "Numbers Japanese": [
-            {"english": "One, two, three.", "japanese": "一、二、三。", "romaji": "Ichi, ni, san."},
-            {"english": "Four, five, six.", "japanese": "四、五、六。", "romaji": "Yon, go, roku."},
-            {"english": "Seven, eight, nine, ten.", "japanese": "七、八、九、十。", "romaji": "Nana, hachi, kyuu, juu."},
-            {"english": "What number is this?", "japanese": "これはいくつですか？", "romaji": "Kore wa ikutsu desu ka?"},
-            {"english": "Give me two, please.", "japanese": "二つください。", "romaji": "Futatsu kudasai."},
-        ],
-        "Time Japanese": [
-            {"english": "What time is it?", "japanese": "今何時ですか？", "romaji": "Ima nanji desu ka?"},
-            {"english": "It's three o'clock.", "japanese": "三時です。", "romaji": "Sanji desu."},
-            {"english": "See you at noon.", "japanese": "正午に会いましょう。", "romaji": "Shougo ni aimashou."},
-            {"english": "I'll be there in five minutes.", "japanese": "5 分後に行きます。", "romaji": "Go-fun-go ni ikimasu."},
-            {"english": "What day is today?", "japanese": "今日は何曜日ですか？", "romaji": "Kyou wa nan'youbi desu ka?"},
-        ],
-        # Motivational Categories
-        "Motivation": [
-            {"english": "Believe in yourself.", "japanese": "自分を信じてください。", "romaji": "Jibun o shinjite kudasai."},
-            {"english": "You are capable of amazing things.", "japanese": "あなたは素晴らしいことができます。", "romaji": "Anata wa subarashii koto ga dekimasu."},
-            {"english": "Dream big, start small.", "japanese": "大きく夢見て、小さく始めよう。", "romaji": "Ookiku yumemite, chiisaku hajimeyou."},
-            {"english": "Your future is created by your actions.", "japanese": "あなたの未来は行動で作られます。", "romaji": "Anata no mirai wa koudou de tsukuraremasu."},
-            {"english": "Never give up on your dreams.", "japanese": "決して夢を諦めないでください。", "romaji": "Kesshite yume o akiramenaide kudasai."},
-        ],
-        "Love": [
-            {"english": "Love yourself first.", "japanese": "まず自分を愛してください。", "romaji": "Mazu jibun o aishite kudasai."},
-            {"english": "Love makes everything possible.", "japanese": "愛はすべてを可能にします。", "romaji": "Ai wa subete o kanou ni shimasu."},
-            {"english": "You are loved more than you know.", "japanese": "あなたは思っている以上に愛されています。", "romaji": "Anata wa omotteiru ijou ni aisareteimasu."},
-            {"english": "Love is the greatest power.", "japanese": "愛は最大の力です。", "romaji": "Ai wa saidai no chikara desu."},
-            {"english": "Spread love everywhere you go.", "japanese": "行く先々で愛を広めましょう。", "romaji": "Iku sakizaki de ai o hirogemashou."},
-        ],
-        "Success": [
-            {"english": "Success comes from hard work.", "japanese": "成功は努力から生まれます。", "romaji": "Seikou wa doryoku kara umaremasu."},
-            {"english": "Keep going, you're getting there.", "japanese": "続けて、もう少しで着きます。", "romaji": "Tsuzukete, mou sukoshi de tsukimasu."},
-            {"english": "Every step counts toward success.", "japanese": "すべてのステップが成功につながります。", "romaji": "Subete no suteppu ga seikou ni tsunagarimasu."},
-            {"english": "Your effort will pay off.", "japanese": "あなたの努力は報われます。", "romaji": "Anata no doryoku wa mukuwaremasu."},
-            {"english": "Success is a journey, not a destination.", "japanese": "成功は旅であり、目的地ではありません。", "romaji": "Seikou wa tabi deari, mokutekichi dewa arimasen."},
-        ],
-        "Wisdom": [
-            {"english": "Knowledge is power.", "japanese": "知識は力なり。", "romaji": "Chishiki wa chikara nari."},
-            {"english": "Learn from yesterday, live for today.", "japanese": "昨日から学び、今日を生きよう。", "romaji": "Kinou kara manabi, kyou o ikiyou."},
-            {"english": "The wise learn from others' mistakes.", "japanese": "賢い人は他人の過ちから学びます。", "romaji": "Kashikoi hito wa tanin no ayamachi kara manabimasu."},
-            {"english": "Experience is the best teacher.", "japanese": "経験は最良の先生です。", "romaji": "Keiken wa sairyou no sensei desu."},
-            {"english": "Wisdom comes with age.", "japanese": "知恵は年齢とともに訪れます。", "romaji": "Chie wa nenrei to tomo ni otozuremasu."},
-        ],
-        "Happiness": [
-            {"english": "Happiness is a choice.", "japanese": "幸せは選択です。", "romaji": "Shiawase wa sentaku desu."},
-            {"english": "Find joy in the little things.", "japanese": "小さなことに喜びを見つけよう。", "romaji": "Chiisana koto ni yorokobi o mitsukeyou."},
-            {"english": "Your happiness matters most.", "japanese": "あなたの幸せが最も重要です。", "romaji": "Anata no shiawase ga mottomo juuyou desu."},
-            {"english": "Smile, it makes others happy.", "japanese": "笑顔で、他の人を幸せにしましょう。", "romaji": "Egao de, hoka no hito o shiawase ni shimashou."},
-            {"english": "Happiness is contagious, spread it.", "japanese": "幸せは伝染します、広めましょう。", "romaji": "Shiawase wa densen shimasu, hirogemashou."},
-        ],
-        "Self Improvement": [
-            {"english": "Better today than yesterday.", "japanese": "昨日より今日、良くなりましょう。", "romaji": "Kinou yori kyou, yoku narimashou."},
-            {"english": "Small steps lead to big changes.", "japanese": "小さなステップが大きな変化をもたらします。", "romaji": "Chiisana suteppu ga ookina henka o motarashimasu."},
-            {"english": "Invest in yourself daily.", "japanese": "毎日自分に投資しましょう。", "romaji": "Mainichi jibun ni toushi shimashou."},
-            {"english": "Growth requires discomfort.", "japanese": "成長には不快さが必要です。", "romaji": "Seichou ni wa fukaidesa ga hitsuyou desu."},
-            {"english": "Be your own competition.", "japanese": "自分自身の競争相手になりましょう。", "romaji": "Jibun jishin no kyousou aite ni narimashou."},
-        ],
-        "Gratitude": [
-            {"english": "I am grateful for today.", "japanese": "今日に感謝します。", "romaji": "Kyou ni kansha shimasu."},
-            {"english": "Thank you for everything.", "japanese": "すべてにありがとう。", "romaji": "Subete ni arigatou."},
-            {"english": "Gratitude turns what we have into enough.", "japanese": "感謝は持っているものを十分に変えます。", "romaji": "Kansha wa motteiru mono o juubun ni kaemasu."},
-            {"english": "Count your blessings daily.", "japanese": "毎日恵みを数えましょう。", "romaji": "Mainichi megumi o kazoemashou."},
-            {"english": "A grateful heart is a happy heart.", "japanese": "感謝の心は幸せな心です。", "romaji": "Kansha no kokoro wa shiawase na kokoro desu."},
-        ],
-        "Friendship": [
-            {"english": "Friends make life better.", "japanese": "友達は人生をより良くします。", "romaji": "Tomodachi wa jinsei o yori yoku shimasu."},
-            {"english": "A true friend is always there.", "japanese": "本当の友達はいつもそばにいます。", "romaji": "Hontou no tomodachi wa itsumo soba ni imasu."},
-            {"english": "Friendship is a precious gift.", "japanese": "友情は貴重な贈り物です。", "romaji": "Yuujou wa kichou na okurimono desu."},
-            {"english": "Good friends are like stars.", "japanese": "良い友達は星のようなものです。", "romaji": "Yoi tomodachi wa hoshi no you na mono desu."},
-            {"english": "Cherish your true friends.", "japanese": "本当の友達を大切にしましょう。", "romaji": "Hontou no tomodachi o taisetsu ni shimashou."},
-        ],
-        "Hope": [
-            {"english": "Hope never dies.", "japanese": "希望は決して消えません。", "romaji": "Kibou wa kesshite kiemasen."},
-            {"english": "Tomorrow is a new beginning.", "japanese": "明日は新しい始まりです。", "romaji": "Ashita wa atarashii hajimari desu."},
-            {"english": "Keep hope alive in your heart.", "japanese": "心の中で希望を生かし続けましょう。", "romaji": "Kokoro no naka de kibou o ikashi tsuzukemashou."},
-            {"english": "Hope is the light in darkness.", "japanese": "希望は闇の中の光です。", "romaji": "Kibou wa yami no naka no hikari desu."},
-            {"english": "Where there's hope, there's life.", "japanese": "希望があるところ、命があります。", "romaji": "Kibou ga aru tokoro, inochi ga arimasu."},
-        ],
-        "Creativity": [
-            {"english": "Create something beautiful today.", "japanese": "今日何か美しいものを作りましょう。", "romaji": "Kyou nanika utsukushii mono o tsukurimashou."},
-            {"english": "Your creativity is unique.", "japanese": "あなたの創造性はユニークです。", "romaji": "Anata no souzousei wa yuniiku desu."},
-            {"english": "Let your imagination run wild.", "japanese": "想像力を自由に働かせましょう。", "romaji": "Souzouryoku o jiyuu ni hatarakase mashou."},
-            {"english": "Art comes from the heart.", "japanese": "芸術は心から生まれます。", "romaji": "Geijutsu wa kokoro kara umaremasu."},
-            {"english": "Every day is a canvas.", "japanese": "毎日がキャンバスです。", "romaji": "Mainichi ga kyanbasu desu."},
-        ],
-        "Inner Peace": [
-            {"english": "Find peace within yourself.", "japanese": "自分自身の中で平和を見つけましょう。", "romaji": "Jibun jishin no naka de heiwa o mitsukemashou."},
-            {"english": "Calm mind, happy heart.", "japanese": "落ち着いた心、幸せな心。", "romaji": "Ochitsuita kokoro, shiawase na kokoro."},
-            {"english": "Peace begins with a smile.", "japanese": "平和は笑顔から始まります。", "romaji": "Heiwa wa egao kara hajimarimasu."},
-            {"english": "Breathe deeply, let go.", "japanese": "深く息を吸って、手放しましょう。", "romaji": "Fukaku iki o sutte, tebanashimashou."},
-            {"english": "Your inner peace is precious.", "japanese": "あなたの内なる平和は貴重です。", "romaji": "Anata no inaru heiwa wa kichou desu."},
-        ],
-        "Confidence": [
-            {"english": "Believe you can, you're right.", "japanese": "できると信じて、その通りです。", "romaji": "Dekiru to shinjite, sono toori desu."},
-            {"english": "You are stronger than you think.", "japanese": "あなたは思っているより強いです。", "romaji": "Anata wa omotteiru yori tsuyoi desu."},
-            {"english": "Confidence comes from within.", "japanese": "自信は内側から来ます。", "romaji": "Jishin wa uchigawa kara kimasu."},
-            {"english": "Stand tall, be proud.", "japanese": "背筋を伸ばして、誇りを持ちましょう。", "romaji": "Sesuji o nobashite, hokori o mochimashou."},
-            {"english": "You have what it takes.", "japanese": "あなたにはそれが必要です。", "romaji": "Anata ni wa sore ga hitsuyou desu."},
-        ],
-        "Perseverance": [
-            {"english": "Never give up, keep going.", "japanese": "決して諦めないで、続けてください。", "romaji": "Kesshite akiramenaide, tsuzukete kudasai."},
-            {"english": "Persistence beats talent.", "japanese": "持続性は才能に勝ります。", "romaji": "Jizokusei wa sainou ni masarimasu."},
-            {"english": "Fall seven times, rise eight.", "japanese": "七転び八起き。", "romaji": "Nanakorobi yaoki."},
-            {"english": "Hard work pays off eventually.", "japanese": "努力は最終的に報われます。", "romaji": "Doryoku wa saishuuteki ni mukuwaremasu."},
-            {"english": "Stay the course, don't quit.", "japanese": "コースを維持して、やめないでください。", "romaji": "Koosu o iji shite, yamenaide kudasai."},
-        ],
-        "Inspiration": [
-            {"english": "Let inspiration guide you.", "japanese": "インスピレーションに導かれましょう。", "romaji": "Insupireeshon ni michibikaremashou."},
-            {"english": "Be the inspiration others need.", "japanese": "他の人が必要とするインスピレーションになりましょう。", "romaji": "Hoka no hito ga hitsuyou to suru insupireeshon ni narimashou."},
-            {"english": "Inspire by example, not words.", "japanese": "言葉ではなく、例でインスピレーションを与えましょう。", "romaji": "Kotoba dewa naku, rei de insupireeshon o ataemashou."},
-            {"english": "Your story inspires others.", "japanese": "あなたの物語が他の人を刺激します。", "romaji": "Anata no monogatari ga hoka no hito o shigeki shimasu."},
-            {"english": "Find inspiration in nature.", "japanese": "自然の中でインスピレーションを見つけましょう。", "romaji": "Shizen no naka de insupireeshon o mitsukemashou."},
-        ],
-        "Positive Life": [
-            {"english": "Choose positivity every day.", "japanese": "毎日ポジティブさを選びましょう。", "romaji": "Mainichi pojitibu sa o erabimashou."},
-            {"english": "Positive thoughts create positive life.", "japanese": "ポジティブな思考がポジティブな人生を作ります。", "romaji": "Pojitibu na shikou ga pojitibu na jinsei o tsukurimasu."},
-            {"english": "Surround yourself with positivity.", "japanese": "自分をポジティブさで囲みましょう。", "romaji": "Jibun o pojitibu sa de kakomimashou."},
-            {"english": "Every day is a fresh start.", "japanese": "毎日が新しいスタートです。", "romaji": "Mainichi ga atarashii sutaato desu."},
-            {"english": "Live life with a positive heart.", "japanese": "ポジティブな心で人生を生きましょう。", "romaji": "Pojitibu na kokoro de jinsei o ikimashou."},
-        ],
-        "Courage": [
-            {"english": "Be brave, take the leap.", "japanese": "勇敢になって、飛び込みましょう。", "romaji": "Yuukan ni natte, tobikomi mashou."},
-            {"english": "Courage is not absence of fear.", "japanese": "勇気とは恐怖の不在ではありません。", "romaji": "Yuuki to wa kyoufu no fuzai dewa arimasen."},
-            {"english": "Face your fears with courage.", "japanese": "勇気を持って恐怖に立ち向かいましょう。", "romaji": "Yuuki o motte kyoufu ni tachimukaimashou."},
-            {"english": "Brave hearts change the world.", "japanese": "勇敢な心が世界を変えます。", "romaji": "Yuukan na kokoro ga sekai o kaemasu."},
-            {"english": "Courage grows with use.", "japanese": "勇気は使うほどに成長します。", "romaji": "Yuuki wa tsukau hodo ni seichou shimasu."},
-        ],
-        "Kindness": [
-            {"english": "Be kind to everyone you meet.", "japanese": "出会うすべての人に優しくしましょう。", "romaji": "Deau subete no hito ni yasashiku shimashou."},
-            {"english": "Kindness costs nothing, means everything.", "japanese": "優しさはお金がかからず、すべてを意味します。", "romaji": "Yasashisa wa okane ga kakarazu, subete o imi shimasu."},
-            {"english": "A kind word warms the heart.", "japanese": "優しい言葉は心を温めます。", "romaji": "Yasashii kotoba wa kokoro o atatamemasu."},
-            {"english": "Spread kindness wherever you go.", "japanese": "行く先々で優しさを広めましょう。", "romaji": "Iku sakizaki de yasashisa o hirogemashou."},
-            {"english": "Kindness makes the world better.", "japanese": "優しさが世界をより良くします。", "romaji": "Yasashisa ga sekai o yori yoku shimasu."},
-        ],
-        "Patience": [
-            {"english": "Good things come to those who wait.", "japanese": "良いことは待つ人にやってきます。", "romaji": "Yoi koto wa matsu hito ni yatte kimasu."},
-            {"english": "Patience is a virtue.", "japanese": "忍耐は美徳です。", "romaji": "Nintai wa bitoku desu."},
-            {"english": "Take your time, don't rush.", "japanese": "時間をかけて、急がないでください。", "romaji": "Jikan o kakete, isoganaide kudasai."},
-            {"english": "Patience brings peace of mind.", "japanese": "忍耐は心の平和をもたらします。", "romaji": "Nintai wa kokoro no heiwa o motarashimasu."},
-            {"english": "Wait patiently, trust the process.", "japanese": "辛抱強く待って、プロセスを信頼しましょう。", "romaji": "Shinbou zuyoku matte, purosesu o shinrai shimashou."},
-        ],
-        "Forgiveness": [
-            {"english": "Forgive and set yourself free.", "japanese": "許して自分自身を解放しましょう。", "romaji": "Yurushite jibun jishin o kaihou shimashou."},
-            {"english": "Forgiveness is a gift to yourself.", "japanese": "許しは自分自身への贈り物です。", "romaji": "Yurushi wa jibun jishin e no okurimono desu."},
-            {"english": "Let go of grudges, find peace.", "japanese": "恨みを捨てて、平和を見つけましょう。", "romaji": "Urami o sutete, heiwa o mitsukemashou."},
-            {"english": "To err is human, to forgive divine.", "japanese": "過ちは人なり、許すは神なり。", "romaji": "Ayamachi wa hito nari, yurusu wa kami nari."},
-            {"english": "Forgiveness heals all wounds.", "japanese": "許しはすべての傷を癒やします。", "romaji": "Yurushi wa subete no kizu o iyashimasu."},
-        ],
-        "Strength": [
-            {"english": "You are stronger than you know.", "japanese": "あなたは思っているより強いです。", "romaji": "Anata wa omotteiru yori tsuyoi desu."},
-            {"english": "Strength comes from within.", "japanese": "力は内側から来ます。", "romaji": "Chikara wa uchigawa kara kimasu."},
-            {"english": "Your struggles develop your strength.", "japanese": "あなたの苦闘が力を発展させます。", "romaji": "Anata no kutou ga chikara o hatten sasemasu."},
-            {"english": "Be strong, stay steady.", "japanese": "強く、安定していきましょう。", "romaji": "Tsuyoku, antei shite ikimashou."},
-            {"english": "Inner strength conquers all.", "japanese": "内なる力がすべてを征服します。", "romaji": "Inaru chikara ga subete o seifuku shimasu."},
-        ],
-        "Joy": [
-            {"english": "Find joy in every moment.", "japanese": "すべての瞬間に喜びを見つけましょう。", "romaji": "Subete no shunkan ni yorokobi o mitsukemashou."},
-            {"english": "Joy is contagious, spread it.", "japanese": "喜びは伝染します、広めましょう。", "romaji": "Yorokobi wa densen shimasu, hirogemashou."},
-            {"english": "Let joy fill your heart today.", "japanese": "今日喜びがあなたの心を満たしましょう。", "romaji": "Kyou yorokobi ga anata no kokoro o mitashimashou."},
-            {"english": "Choose joy over worry.", "japanese": "心配ではなく喜びを選びましょう。", "romaji": "Shinpai dewa naku yorokobi o erabimashou."},
-            {"english": "Joy is the simplest form of gratitude.", "japanese": "喜びは最も単純な感謝の形です。", "romaji": "Yorokobi wa mottomo tanjun na kansha no katachi desu."},
-        ],
-        "Balance": [
-            {"english": "Find balance in your life.", "japanese": "人生の中でバランスを見つけましょう。", "romaji": "Jinsei no naka de baransu o mitsukemashou."},
-            {"english": "Balance is the key to happiness.", "japanese": "バランスは幸せへの鍵です。", "romaji": "Baransu wa shiawase e no kagi desu."},
-            {"english": "Work hard, rest well.", "japanese": "一生懸命働いて、よく休みましょう。", "romaji": "Isshou kenmei hataraite, yoku yasumimashou."},
-            {"english": "A balanced life is a peaceful life.", "japanese": "バランスの取れた人生は平和な人生です。", "romaji": "Baransu no toreta jinsei wa heiwa na jinsei desu."},
-            {"english": "Prioritize what matters most.", "japanese": "最も重要なことを優先しましょう。", "romaji": "Mottomo juuyou na koto o yuusen shimashou."},
-        ],
-        "Growth": [
-            {"english": "Growth happens outside your comfort zone.", "japanese": "成長は快適ゾーンの外で起こります。", "romaji": "Seichou wa kaiteki zoon no soto de okorimasu."},
-            {"english": "Embrace change, grow stronger.", "japanese": "変化を受け入れて、より強くなりましょう。", "romaji": "Henka o ukeirete, yori tsuyoku narimashou."},
-            {"english": "Every challenge is a growth opportunity.", "japanese": "すべての挑戦は成長の機会です。", "romaji": "Subete no chousen wa seichou no kikai desu."},
-            {"english": "Grow through what you go through.", "japanese": "経験を通して成長しましょう。", "romaji": "Keiken o toushite seichou shimashou."},
-            {"english": "Personal growth is a lifelong journey.", "japanese": "個人の成長は生涯の旅です。", "romaji": "Kojin no seichou wa shougai no tabi desu."},
-        ],
-        "Purpose": [
-            {"english": "Find your purpose, live it.", "japanese": "あなたの目的を見つけて、生きましょう。", "romaji": "Anata no mokuteki o mitsukete, ikimashou."},
-            {"english": "Purpose gives life meaning.", "japanese": "目的は人生に意味を与えます。", "romaji": "Mokuteki wa jinsei ni imi o ataemasu."},
-            {"english": "Live with purpose and passion.", "japanese": "目的と情熱を持って生きましょう。", "romaji": "Mokuteki to jounetsu o motte ikimashou."},
-            {"english": "Your purpose is your calling.", "japanese": "あなたの目的はあなたの天職です。", "romaji": "Anata no mokuteki wa anata no tenshoku desu."},
-            {"english": "Discover purpose in everyday moments.", "japanese": "日常の瞬間に目的を発見しましょう。", "romaji": "Nichijou no shunkan ni mokuteki o hakken shimashou."},
-        ],
-        "Mindfulness": [
-            {"english": "Be present in this moment.", "japanese": "この瞬間に存在しましょう。", "romaji": "Kono shunkan ni sonzai shimashou."},
-            {"english": "Mindfulness brings inner peace.", "japanese": "マインドフルネスは内なる平和をもたらします。", "romaji": "Maindofurunesu wa inaru heiwa o motarashimasu."},
-            {"english": "Breathe deeply, stay mindful.", "japanese": "深く息を吸って、マインドフルでいましょう。", "romaji": "Fukaku iki o sutte, maindofuru de imashou."},
-            {"english": "The present moment is all we have.", "japanese": "現在の瞬間が私たちが持つすべてです。", "romaji": "Genzai no shunkan ga watashitachi ga motsu subete desu."},
-            {"english": "Practice mindfulness daily.", "japanese": "毎日マインドフルネスを実践しましょう。", "romaji": "Mainichi maindofurunesu o jissen shimashou."},
-        ],
-    }
-
-    fallbacks = all_fallbacks.get(category, all_fallbacks["Motivation"])
+    fallbacks = FALLBACK_PHRASES.get(category, FALLBACK_PHRASES["Motivation"])
     fresh_phrases = [p for p in fallbacks if not is_phrase_used(p["english"])]
-    return fresh_phrases[:num_phrases]
+
+    if len(fresh_phrases) >= num_phrases:
+        return fresh_phrases[:num_phrases]
+
+    related = RELATED_CATEGORIES.get(category, [])
+    for rel_cat in related:
+        rel_phrases = FALLBACK_PHRASES.get(rel_cat, [])
+        for p in rel_phrases:
+            if len(fresh_phrases) >= num_phrases:
+                break
+            if not is_phrase_used(p["english"]):
+                fresh_phrases.append(p)
+        if len(fresh_phrases) >= num_phrases:
+            break
+
+    if len(fresh_phrases) >= num_phrases:
+        return fresh_phrases[:num_phrases]
+
+    all_available = []
+    for cat_list in FALLBACK_PHRASES.values():
+        for p in cat_list:
+            if not is_phrase_used(p["english"]):
+                all_available.append(p)
+            if len(all_available) >= num_phrases:
+                break
+        if len(all_available) >= num_phrases:
+            break
+
+    if len(all_available) >= num_phrases:
+        result = all_available[:num_phrases]
+        add_phrases_to_history(result, category)
+        return result
+
+    result = fallbacks[:num_phrases]
+    print(f"[content] WARNING: All phrases used, reusing {len(result)} fallback phrases")
+    return result
 
 
 # ============== AUDIO GENERATION ==============
