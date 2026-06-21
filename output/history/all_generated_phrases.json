@@ -6614,7 +6614,42 @@
       "romaji": "Mite, hoshi ga kagayaite iru.",
       "category": "Nature Japanese",
       "generated_at": "2026-06-20T23:18:03.442595"
+    },
+    {
+      "english": "Start now, keep going, don’t quit",
+      "japanese": "今すぐ始めて, 進み続けて, やめない",
+      "romaji": "imasugu hajimete, susumi tsuzukete, yamenai",
+      "category": "Success",
+      "generated_at": "2026-06-21T03:39:32.580828"
+    },
+    {
+      "english": "Small steps, daily effort, big results",
+      "japanese": "小さく進めて, 毎日努力して, 大きな成果",
+      "romaji": "chīsaku susumete, mainichi doryoku shite, ōkina seika",
+      "category": "Success",
+      "generated_at": "2026-06-21T03:39:32.580837"
+    },
+    {
+      "english": "Focus on today, trust your progress",
+      "japanese": "今日に集中して, 成長を信じて",
+      "romaji": "kyō ni shūchū shite, seichō o shinji te",
+      "category": "Success",
+      "generated_at": "2026-06-21T03:39:32.580839"
+    },
+    {
+      "english": "Learn from mistakes, then try again",
+      "japanese": "失敗から学んで, もう一度挑戦",
+      "romaji": "shippai kara manande, mō ichido chōsen",
+      "category": "Success",
+      "generated_at": "2026-06-21T03:39:32.580841"
+    },
+    {
+      "english": "Be brave, ask questions, keep improving",
+      "japanese": "勇気を出して, 質問して, 改善しよう",
+      "romaji": "yūki o dashite, shitsumon shite, kaizen shiyō",
+      "category": "Success",
+      "generated_at": "2026-06-21T03:39:32.580842"
     }
   ],
-  "last_updated": "2026-06-20T23:18:03.442597"
+  "last_updated": "2026-06-21T03:39:32.580843"
 }
