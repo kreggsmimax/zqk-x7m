@@ -6754,7 +6754,42 @@
       "romaji": "shiki o tanoshinde, kokoro o karuku",
       "category": "Numbers Japanese",
       "generated_at": "2026-06-21T15:46:56.841725"
+    },
+    {
+      "english": "I enjoy reading, in my free time.",
+      "japanese": "暇な時、読書を楽しみます。",
+      "romaji": "Hima na toki, dokusho o tanoshimimasu.",
+      "category": "Hobbies Japanese",
+      "generated_at": "2026-06-21T17:46:11.359794"
+    },
+    {
+      "english": "My hobby is, playing the guitar.",
+      "japanese": "趣味は、ギターを弾くことです。",
+      "romaji": "Shumi wa, gitā o hiku koto desu.",
+      "category": "Hobbies Japanese",
+      "generated_at": "2026-06-21T17:46:11.359804"
+    },
+    {
+      "english": "I like to go, hiking in the mountains.",
+      "japanese": "山へハイキングに行くのが、好きです。",
+      "romaji": "Yama e haikingu ni iku no ga, suki desu.",
+      "category": "Hobbies Japanese",
+      "generated_at": "2026-06-21T17:46:11.359805"
+    },
+    {
+      "english": "Collecting stamps, is my passion.",
+      "japanese": "切手を集めるのが、私の情熱です。",
+      "romaji": "Kippu o atsumeru no ga, watashi no jōnetsu desu.",
+      "category": "Hobbies Japanese",
+      "generated_at": "2026-06-21T17:46:11.359807"
+    },
+    {
+      "english": "I love cooking, new recipes.",
+      "japanese": "新しいレシピを、料理するのが大好きです。",
+      "romaji": "Atarashii reshipi o, ryōri suru no ga daisuki desu.",
+      "category": "Hobbies Japanese",
+      "generated_at": "2026-06-21T17:46:11.359808"
     }
   ],
-  "last_updated": "2026-06-21T15:46:56.841726"
+  "last_updated": "2026-06-21T17:46:11.359810"
 }
