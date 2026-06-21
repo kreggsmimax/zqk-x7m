@@ -6824,7 +6824,42 @@
       "romaji": "atatakai kotoba ni, genki o mora tta.",
       "category": "Gratitude",
       "generated_at": "2026-06-21T19:56:44.471403"
+    },
+    {
+      "english": "Go straight, then turn left.",
+      "japanese": "まっすぐ行って、左に曲がってください。",
+      "romaji": "massugu itte, hidari ni magatte kudasai.",
+      "category": "Direction Japanese",
+      "generated_at": "2026-06-21T21:04:13.358147"
+    },
+    {
+      "english": "Turn right, at the corner.",
+      "japanese": "角を右に、曲がってください。",
+      "romaji": "kado o migi ni, magatte kudasai.",
+      "category": "Direction Japanese",
+      "generated_at": "2026-06-21T21:04:13.358158"
+    },
+    {
+      "english": "Continue, until the station.",
+      "japanese": "駅まで、そのまま進んでください。",
+      "romaji": "eki made, sono mama susunde kudasai.",
+      "category": "Direction Japanese",
+      "generated_at": "2026-06-21T21:04:13.358160"
+    },
+    {
+      "english": "It's across, from the post office.",
+      "japanese": "郵便局の、向かい側です。",
+      "romaji": "yūbinkyoku no, mukaigawa desu.",
+      "category": "Direction Japanese",
+      "generated_at": "2026-06-21T21:04:13.358161"
+    },
+    {
+      "english": "It's next to, the convenience store.",
+      "japanese": "コンビニの、隣にあります。",
+      "romaji": "konbini no, tonari ni arimasu.",
+      "category": "Direction Japanese",
+      "generated_at": "2026-06-21T21:04:13.358162"
     }
   ],
-  "last_updated": "2026-06-21T19:56:44.471405"
+  "last_updated": "2026-06-21T21:04:13.358164"
 }
