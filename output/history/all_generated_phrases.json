@@ -7034,7 +7034,42 @@
       "romaji": "kyoukai-sen o hiite, shuuchuu o mamoru",
       "category": "Self Improvement",
       "generated_at": "2026-06-22T18:09:16.201649"
+    },
+    {
+      "english": "Let's start, please.",
+      "japanese": "始めましょう、お願いします。",
+      "romaji": "Hajimemashou, onegaishimasu.",
+      "category": "Work Japanese",
+      "generated_at": "2026-06-22T19:37:12.103408"
+    },
+    {
+      "english": "Please check, this.",
+      "japanese": "こちらを、確認してください。",
+      "romaji": "Kochira o, kakunin shite kudasai.",
+      "category": "Work Japanese",
+      "generated_at": "2026-06-22T19:37:12.103420"
+    },
+    {
+      "english": "Is that, okay?",
+      "japanese": "それは、大丈夫ですか？",
+      "romaji": "Sore wa, daijoubu desu ka?",
+      "category": "Work Japanese",
+      "generated_at": "2026-06-22T19:37:12.103422"
+    },
+    {
+      "english": "I'll do it, later.",
+      "japanese": "後で、やります。",
+      "romaji": "Ato de, yarimasu.",
+      "category": "Work Japanese",
+      "generated_at": "2026-06-22T19:37:12.103423"
+    },
+    {
+      "english": "Thank you, for your help.",
+      "japanese": "助かりました、ありがとうございます。",
+      "romaji": "Tasukarimashita, arigatou gozaimasu.",
+      "category": "Work Japanese",
+      "generated_at": "2026-06-22T19:37:12.103424"
     }
   ],
-  "last_updated": "2026-06-22T18:09:16.201651"
+  "last_updated": "2026-06-22T19:37:12.103426"
 }
