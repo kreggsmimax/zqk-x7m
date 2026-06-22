@@ -6894,7 +6894,42 @@
       "romaji": "naze o kangaete, betsu no hōhō de tishiyō",
       "category": "Creativity",
       "generated_at": "2026-06-21T23:24:18.418258"
+    },
+    {
+      "english": "Where is the checkout counter, please?",
+      "japanese": "レジはどこですか、お願いします。",
+      "romaji": "reji wa doko desu ka, onegaishimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-06-22T03:43:17.570360"
+    },
+    {
+      "english": "I’m just browsing, thank you.",
+      "japanese": "ただ見ています、ありがとうございます。",
+      "romaji": "tada miteimasu, arigatou gozaimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-06-22T03:43:17.570370"
+    },
+    {
+      "english": "Do you have this in a smaller size?",
+      "japanese": "これ、小さいサイズありますか。",
+      "romaji": "kore, chiisai saizu arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-06-22T03:43:17.570371"
+    },
+    {
+      "english": "Can I try it on, please?",
+      "japanese": "試着してもいいですか、お願いします。",
+      "romaji": "shichaku shite mo ii desu ka, onegaishimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-06-22T03:43:17.570373"
+    },
+    {
+      "english": "Where can I find batteries?",
+      "japanese": "電池はどこにありますか。",
+      "romaji": "denchi wa doko ni arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-06-22T03:43:17.570374"
     }
   ],
-  "last_updated": "2026-06-21T23:24:18.418261"
+  "last_updated": "2026-06-22T03:43:17.570376"
 }
