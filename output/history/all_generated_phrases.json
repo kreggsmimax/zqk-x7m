@@ -7174,7 +7174,42 @@
       "romaji": "ichido shippai shite, hayaku manabi, mata chousen",
       "category": "Strength",
       "generated_at": "2026-06-22T23:27:05.478239"
+    },
+    {
+      "english": "I understand, please forgive me, let's move on",
+      "japanese": "わかりました、ごめんなさい、もう行こう",
+      "romaji": "wakarimashita, gomen nasai, mō ikō",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-23T02:48:19.763630"
+    },
+    {
+      "english": "I was wrong, forgive me, please",
+      "japanese": "間違えました、ごめんなさい、お願いします",
+      "romaji": "machigaemashita, gomen nasai, onegaishimasu",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-23T02:48:19.763639"
+    },
+    {
+      "english": "I regret it, forgive me, truly",
+      "japanese": "後悔しています、許してください、本当に",
+      "romaji": "kōkai shiteimasu, yuru shite kudasai, hontō ni",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-23T02:48:19.763641"
+    },
+    {
+      "english": "You didn't deserve that, forgive me",
+      "japanese": "そんなこと、あなたにふさわしくない、許して",
+      "romaji": "sonna koto, anata ni fさわしくない, yurushite",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-23T02:48:19.763642"
+    },
+    {
+      "english": "Let's forgive each other, slowly, today",
+      "japanese": "お互いに許そう、ゆっくり、今日",
+      "romaji": "otagai ni yurusō, yukkuri, kyō",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-23T02:48:19.763643"
     }
   ],
-  "last_updated": "2026-06-22T23:27:05.478241"
+  "last_updated": "2026-06-23T02:48:19.763645"
 }
