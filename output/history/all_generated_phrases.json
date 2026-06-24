@@ -7524,7 +7524,42 @@
       "romaji": "Ashi no ura ga, itamimasu.",
       "category": "Body Japanese",
       "generated_at": "2026-06-24T12:14:34.892189"
+    },
+    {
+      "english": "How much is this ticket, please?",
+      "japanese": "この切符, いくらですか",
+      "romaji": "kono kippu, ikura desu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-24T14:25:53.830202"
+    },
+    {
+      "english": "I want to go to Kyoto today.",
+      "japanese": "今日は, 京都へ行きたいです",
+      "romaji": "kyou wa, kyouto e ikitai desu",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-24T14:25:53.830211"
+    },
+    {
+      "english": "Is there a restroom nearby?",
+      "japanese": "近くに, トイレはありますか",
+      "romaji": "chikaku ni, toire wa arimasu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-24T14:25:53.830213"
+    },
+    {
+      "english": "Can you show me on the map?",
+      "japanese": "地図で, 教えてもらえますか",
+      "romaji": "chizu de, oshiete moraemasu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-24T14:25:53.830215"
+    },
+    {
+      "english": "What time does the next train leave?",
+      "japanese": "次の電車, 何時に出ますか",
+      "romaji": "tsugi no densha, nanji ni demasu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-24T14:25:53.830216"
     }
   ],
-  "last_updated": "2026-06-24T12:14:34.892190"
+  "last_updated": "2026-06-24T14:25:53.830217"
 }
