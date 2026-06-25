@@ -7734,7 +7734,42 @@
       "romaji": "egao o wakete, mainichi o akaruku",
       "category": "Kindness",
       "generated_at": "2026-06-24T23:14:29.323433"
+    },
+    {
+      "english": "Pause, then choose the brave option.",
+      "japanese": "いったん止まって、勇気で決める。",
+      "romaji": "ittan tomatte, yuuki de kimeru",
+      "category": "Courage",
+      "generated_at": "2026-06-25T02:48:21.856151"
+    },
+    {
+      "english": "Try once more, even if shaky.",
+      "japanese": "不安でも、もう一度やってみる。",
+      "romaji": "fuan demo, mou ichido yatte miru",
+      "category": "Courage",
+      "generated_at": "2026-06-25T02:48:21.856161"
+    },
+    {
+      "english": "You can do it, one breath.",
+      "japanese": "できる、ひと息でいける。",
+      "romaji": "dekiru, hitoiki de ikeru",
+      "category": "Courage",
+      "generated_at": "2026-06-25T02:48:21.856163"
+    },
+    {
+      "english": "Protect your dreams, keep going.",
+      "japanese": "夢を守って、進み続ける。",
+      "romaji": "yume o mamotte, susumi tsuzukeru",
+      "category": "Courage",
+      "generated_at": "2026-06-25T02:48:21.856164"
+    },
+    {
+      "english": "Be honest, and face the challenge.",
+      "japanese": "正直に、挑戦に向き合う。",
+      "romaji": "shoujiki ni, chousen ni mukiau",
+      "category": "Courage",
+      "generated_at": "2026-06-25T02:48:21.856165"
     }
   ],
-  "last_updated": "2026-06-24T23:14:29.323434"
+  "last_updated": "2026-06-25T02:48:21.856167"
 }
