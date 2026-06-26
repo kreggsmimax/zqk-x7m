@@ -8049,7 +8049,42 @@
       "romaji": "yukkuri demo, mae ni susunderu",
       "category": "Confidence",
       "generated_at": "2026-06-26T02:53:19.032205"
+    },
+    {
+      "english": "Thank you for helping me, sincerely",
+      "japanese": "助けてくれてありがとう、ほんとうにね",
+      "romaji": "tasukete kurete arigatou, hontou ni ne",
+      "category": "Friendship",
+      "generated_at": "2026-06-26T12:06:43.585488"
+    },
+    {
+      "english": "When life is hard, we walk together",
+      "japanese": "つらい時は、私たち一緒に歩こう",
+      "romaji": "tsurai toki wa, watashitachi issho ni arukou",
+      "category": "Friendship",
+      "generated_at": "2026-06-26T12:06:43.585497"
+    },
+    {
+      "english": "Share your worries, I’ll keep them safe",
+      "japanese": "悩みを話して、守るよ",
+      "romaji": "nayami o hanashite, mamoru yo",
+      "category": "Friendship",
+      "generated_at": "2026-06-26T12:06:43.585499"
+    },
+    {
+      "english": "Small talk is warm, with you",
+      "japanese": "あなたとなら、世間話もあたたかい",
+      "romaji": "anata to nara, seken banashi mo atatakai",
+      "category": "Friendship",
+      "generated_at": "2026-06-26T12:06:43.585500"
+    },
+    {
+      "english": "Let’s trust each other, step by step",
+      "japanese": "少しずつ信じよう、手を取り合って",
+      "romaji": "sukoshi zutsu shinjiyou, te o tori atatte",
+      "category": "Friendship",
+      "generated_at": "2026-06-26T12:06:43.585501"
     }
   ],
-  "last_updated": "2026-06-26T02:53:19.032207"
+  "last_updated": "2026-06-26T12:06:43.585503"
 }
