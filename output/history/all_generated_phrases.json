@@ -8014,7 +8014,42 @@
       "romaji": "shippai shitemo, sugu naoshite, mata chousen",
       "category": "Purpose",
       "generated_at": "2026-06-25T23:25:13.910688"
+    },
+    {
+      "english": "You can do it, one step now",
+      "japanese": "できるよ、いま一歩ずつ",
+      "romaji": "dekiru yo, ima ippo zutsu",
+      "category": "Confidence",
+      "generated_at": "2026-06-26T02:53:19.032189"
+    },
+    {
+      "english": "Breathe, you’re improving, keep going",
+      "japanese": "深呼吸して、上達してる、続けよう",
+      "romaji": "shinkokyuu shite, joutatsu shiteru, tsudzukeyou",
+      "category": "Confidence",
+      "generated_at": "2026-06-26T02:53:19.032200"
+    },
+    {
+      "english": "Trust yourself, learn from mistakes",
+      "japanese": "自分を信じて、失敗から学ぼう",
+      "romaji": "jibun o shinjite, shippai kara manabou",
+      "category": "Confidence",
+      "generated_at": "2026-06-26T02:53:19.032202"
+    },
+    {
+      "english": "Say it out loud, calmly",
+      "japanese": "落ち着いて、声に出そう",
+      "romaji": "ochitsuite, koe ni dashiyou",
+      "category": "Confidence",
+      "generated_at": "2026-06-26T02:53:19.032204"
+    },
+    {
+      "english": "Even slowly, you’re still moving forward",
+      "japanese": "ゆっくりでも、前に進んでる",
+      "romaji": "yukkuri demo, mae ni susunderu",
+      "category": "Confidence",
+      "generated_at": "2026-06-26T02:53:19.032205"
     }
   ],
-  "last_updated": "2026-06-25T23:25:13.910690"
+  "last_updated": "2026-06-26T02:53:19.032207"
 }
