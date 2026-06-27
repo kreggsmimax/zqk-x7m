@@ -8469,7 +8469,42 @@
       "romaji": "neru mae ni, manga o yomimasu",
       "category": "Hobbies Japanese",
       "generated_at": "2026-06-27T19:41:19.119671"
+    },
+    {
+      "english": "May I have a menu, please?",
+      "japanese": "メニューをお願いします",
+      "romaji": "Menyū o onegaishimasu",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-27T20:49:36.344384"
+    },
+    {
+      "english": "This dish is delicious, and, the portions are good",
+      "japanese": "この料理、おいしいですし、量もちょうどいい",
+      "romaji": "Kono ryōri, oishii desu shi, ryō mo chōdo ii",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-27T20:49:36.344393"
+    },
+    {
+      "english": "Could we get the bill, please?",
+      "japanese": "お会計をお願いします",
+      "romaji": "Okaikei o onegaishimasu",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-27T20:49:36.344395"
+    },
+    {
+      "english": "I’ll have this one, thank you",
+      "japanese": "これにします、ありがとうございます",
+      "romaji": "Kore ni shimasu, arigatō gozaimasu",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-27T20:49:36.344396"
+    },
+    {
+      "english": "Could we have separate checks?",
+      "japanese": "お会計は分けてお願いします",
+      "romaji": "Okaikei wa wakete onegaishimasu",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-06-27T20:49:36.344398"
     }
   ],
-  "last_updated": "2026-06-27T19:41:19.119673"
+  "last_updated": "2026-06-27T20:49:36.344399"
 }
