@@ -8294,7 +8294,42 @@
       "romaji": "sekinsu o nobashite, senaka massugu",
       "category": "Body Japanese",
       "generated_at": "2026-06-27T02:43:45.493065"
+    },
+    {
+      "english": "How much is this train ticket?",
+      "japanese": "この電車の切符はいくらですか？",
+      "romaji": "Kono densha no kippu wa ikura desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-27T11:20:31.189717"
+    },
+    {
+      "english": "Where is the nearest restroom?",
+      "japanese": "一番近いトイレはどこですか？",
+      "romaji": "Ichiban chikai toire wa doko desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-27T11:20:31.189726"
+    },
+    {
+      "english": "Can you take a photo of us?",
+      "japanese": "私たちの写真を撮ってもらえますか？",
+      "romaji": "Watashitachi no shashin o tottemo rae masu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-27T11:20:31.189728"
+    },
+    {
+      "english": "I lost my passport, please help.",
+      "japanese": "パスポートをなくしました。助けてください。",
+      "romaji": "Pasupōto o nakushimashita. Tasukete kudasai.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-27T11:20:31.189730"
+    },
+    {
+      "english": "Is there a restaurant nearby?",
+      "japanese": "近くにレストランはありますか？",
+      "romaji": "Chikaku ni resutoran wa arimasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-06-27T11:20:31.189731"
     }
   ],
-  "last_updated": "2026-06-27T02:43:45.493067"
+  "last_updated": "2026-06-27T11:20:31.189733"
 }
