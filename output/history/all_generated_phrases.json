@@ -8714,7 +8714,42 @@
       "romaji": "Ookina yume o, mazu wa kyou no ippoku kara",
       "category": "Perseverance",
       "generated_at": "2026-06-28T17:22:16.338096"
+    },
+    {
+      "english": "Good morning, how did you sleep?",
+      "japanese": "おはよう、よく眠れましたか？",
+      "romaji": "ohayō, yoku nemuremashita ka?",
+      "category": "Greetings",
+      "generated_at": "2026-06-28T19:42:14.928050"
+    },
+    {
+      "english": "Afternoon, feeling refreshed today?",
+      "japanese": "こんにちは、今日はすっきりしてますか？",
+      "romaji": "konnichi wa, kyō wa sukkiri shite-masu ka?",
+      "category": "Greetings",
+      "generated_at": "2026-06-28T19:42:14.928061"
+    },
+    {
+      "english": "Evening, had dinner yet?",
+      "japanese": "こんばんは、もう晩ご飯食べましたか？",
+      "romaji": "konban wa, mō bangohan tabemashita ka?",
+      "category": "Greetings",
+      "generated_at": "2026-06-28T19:42:14.928063"
+    },
+    {
+      "english": "Late night, don't stay up too long, huh?",
+      "japanese": "夜遅くまで、頑張りすぎないでくださいね？",
+      "romaji": "yoru osoku made, ganbarisuginai de kudasai ne?",
+      "category": "Greetings",
+      "generated_at": "2026-06-28T19:42:14.928064"
+    },
+    {
+      "english": "Hey there, how's it going lately?",
+      "japanese": "やあ、最近どう？",
+      "romaji": "ya, saikin dō?",
+      "category": "Greetings",
+      "generated_at": "2026-06-28T19:42:14.928065"
     }
   ],
-  "last_updated": "2026-06-28T17:22:16.338098"
+  "last_updated": "2026-06-28T19:42:14.928067"
 }
