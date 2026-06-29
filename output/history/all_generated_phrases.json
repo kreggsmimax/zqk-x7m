@@ -8889,7 +8889,42 @@
       "romaji": "Shippai wa kyōkun, ikidomari ja nai",
       "category": "Strength",
       "generated_at": "2026-06-29T13:58:57.404996"
+    },
+    {
+      "english": "I’m thankful, for your thoughtful time",
+      "japanese": "気づかいの時間を、ありがとう。",
+      "romaji": "kidzukai no jikan o, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-29T15:42:38.776881"
+    },
+    {
+      "english": "Thanks, for making things easier",
+      "japanese": "楽にしてくれて、ありがとう。",
+      "romaji": "raku ni shite kurete, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-29T15:42:38.776895"
+    },
+    {
+      "english": "I’m grateful, for your guidance today",
+      "japanese": "今日の導きに、感謝します。",
+      "romaji": "kyou no michibiki ni, kansha shimasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-29T15:42:38.776897"
+    },
+    {
+      "english": "Thank you, for your honest encouragement",
+      "japanese": "励ましをくれて、ありがとう。",
+      "romaji": "hagemashi o kurete, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-29T15:42:38.776898"
+    },
+    {
+      "english": "I appreciate you, for everything",
+      "japanese": "いつも本当に、ありがとう。",
+      "romaji": "itsumo hontou ni, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-29T15:42:38.776899"
     }
   ],
-  "last_updated": "2026-06-29T13:58:57.404998"
+  "last_updated": "2026-06-29T15:42:38.776901"
 }
