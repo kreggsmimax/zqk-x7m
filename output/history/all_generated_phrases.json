@@ -9099,7 +9099,42 @@
       "romaji": "Kaji da! Nigete!",
       "category": "Emergency Japanese",
       "generated_at": "2026-06-30T02:52:51.535967"
+    },
+    {
+      "english": "Nice to meet you, I'm Alex",
+      "japanese": "よろしく、私はアレックスです",
+      "romaji": "Yoroshiku, watashi wa Arekkusu desu",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-30T12:04:56.166687"
+    },
+    {
+      "english": "Where is the train station, please?",
+      "japanese": "駅はどこですか？",
+      "romaji": "Eki wa doko desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-30T12:04:56.166698"
+    },
+    {
+      "english": "This tastes really good, thank you",
+      "japanese": "とても美味しいです、ありがとうございます",
+      "romaji": "Totemo oishii desu, arigatō gozaimasu",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-30T12:04:56.166700"
+    },
+    {
+      "english": "Can you speak English, slowly please?",
+      "japanese": "英語が話せますか？ゆっくりお願いします",
+      "romaji": "Eigo ga hanasemasu ka? Yukkuri onegaishimasu",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-30T12:04:56.166701"
+    },
+    {
+      "english": "I'll have this, please",
+      "japanese": "これをお願いします",
+      "romaji": "Kore o onegaishimasu",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-30T12:04:56.166703"
     }
   ],
-  "last_updated": "2026-06-30T02:52:51.535968"
+  "last_updated": "2026-06-30T12:04:56.166705"
 }
