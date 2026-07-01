@@ -9309,7 +9309,42 @@
       "romaji": "kao no chikara o nuite, ago o yurumete",
       "category": "Body Japanese",
       "generated_at": "2026-06-30T21:22:15.522033"
+    },
+    {
+      "english": "Deadline's tight, let's focus.",
+      "japanese": "締切は厳しい、集中しよう。",
+      "romaji": "Shimekiri wa kibishii, shūchō shiyō.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-01T03:00:39.611492"
+    },
+    {
+      "english": "Report's due Friday, right?",
+      "japanese": "レポートは金曜日までですね？",
+      "romaji": "Repōto wa kin'yōbi made desu ne?",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-01T03:00:39.611500"
+    },
+    {
+      "english": "Documents need signing, here please.",
+      "japanese": "書類にサインが必要、こちらです。",
+      "romaji": "Shorui ni sain ga hitsuyō, kochira desu.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-01T03:00:39.611502"
+    },
+    {
+      "english": "Team meeting, ten minutes.",
+      "japanese": "チーム会議、あと十分で。",
+      "romaji": "Chīmu kaigi, ato jippun de.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-01T03:00:39.611517"
+    },
+    {
+      "english": "Client called, urgent matter.",
+      "japanese": "クライアントからです、急用です。",
+      "romaji": "Kuraiante kara desu, kyūyō desu.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-01T03:00:39.611518"
     }
   ],
-  "last_updated": "2026-06-30T21:22:15.522036"
+  "last_updated": "2026-07-01T03:00:39.611520"
 }
