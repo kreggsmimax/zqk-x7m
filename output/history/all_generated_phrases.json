@@ -9589,7 +9589,42 @@
       "romaji": "jibun no peesu de, kyou yokushite, mata kurikaesu",
       "category": "Purpose",
       "generated_at": "2026-07-01T23:22:55.849486"
+    },
+    {
+      "english": "Breathe slowly, steady your mind, then act",
+      "japanese": "ゆっくり呼吸して, 気持ちを整え, から行動する",
+      "romaji": "yukkuri kokyū shite, kimochi o totonoete, kara kōdō suru",
+      "category": "Balance",
+      "generated_at": "2026-07-02T02:48:51.904841"
+    },
+    {
+      "english": "Pause for a moment, keep your balance",
+      "japanese": "いったん止まって, バランスを保つ",
+      "romaji": "ittan tomatte, baransu o tamotsu",
+      "category": "Balance",
+      "generated_at": "2026-07-02T02:48:51.904853"
+    },
+    {
+      "english": "Choose one thing, do it calmly",
+      "japanese": "一つに決めて, 落ち着いてやる",
+      "romaji": "hitotsu ni kimete, ochitsuite yaru",
+      "category": "Balance",
+      "generated_at": "2026-07-02T02:48:51.904855"
+    },
+    {
+      "english": "Listen first, speak after, stay gentle",
+      "japanese": "まず聞いて, それから話して, やさしく",
+      "romaji": "mazu kiite, sorekara hanashite, yasashiku",
+      "category": "Balance",
+      "generated_at": "2026-07-02T02:48:51.904856"
+    },
+    {
+      "english": "Even when busy, move with patience",
+      "japanese": "忙しくても, 焦らず進む",
+      "romaji": "isogashikute mo, aserazu susumu",
+      "category": "Balance",
+      "generated_at": "2026-07-02T02:48:51.904857"
     }
   ],
-  "last_updated": "2026-07-01T23:22:55.849488"
+  "last_updated": "2026-07-02T02:48:51.904859"
 }
