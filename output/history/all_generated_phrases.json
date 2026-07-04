@@ -9974,7 +9974,42 @@
       "romaji": "murasaki no hana, kirei de, yasashiku shizuka",
       "category": "Colors Japanese",
       "generated_at": "2026-07-03T23:14:28.227538"
+    },
+    {
+      "english": "Good morning, let's check priorities today",
+      "japanese": "おはよう、今日の優先事項を確認しよう",
+      "romaji": "ohayou, kyou no yuu-sen jiko o kakunin shiyou",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-04T02:29:33.076452"
+    },
+    {
+      "english": "Please send the report by five o'clock",
+      "japanese": "報告書は五時までに送ってください",
+      "romaji": "houkokusho wa go-ji made ni okutte kudasai",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-04T02:29:33.076459"
+    },
+    {
+      "english": "Thanks, I will review it this afternoon",
+      "japanese": "ありがとう、今日の午後に確認します",
+      "romaji": "arigatou, kyou no gogo ni kakunin shimasu",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-04T02:29:33.076461"
+    },
+    {
+      "english": "Could you call me back after lunch",
+      "japanese": "昼休みのあと、折り返し電話できますか",
+      "romaji": "hiruyasumi no ato, orikaeshi denwa dekimasu ka",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-04T02:29:33.076462"
+    },
+    {
+      "english": "Let's update the schedule, then move forward",
+      "japanese": "スケジュールを更新して、先へ進もう",
+      "romaji": "sukeジュuru o koushin shite, saki e susumou",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-04T02:29:33.076464"
     }
   ],
-  "last_updated": "2026-07-03T23:14:28.227540"
+  "last_updated": "2026-07-04T02:29:33.076465"
 }
