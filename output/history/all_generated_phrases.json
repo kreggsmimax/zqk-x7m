@@ -10079,7 +10079,42 @@
       "romaji": "koko kara, tōi desu ka?",
       "category": "Direction Japanese",
       "generated_at": "2026-07-04T13:20:11.863452"
+    },
+    {
+      "english": "I’d like a coffee, black.",
+      "japanese": "コーヒーをブラックでお願いします。",
+      "romaji": "Kōhī o burakku de onegaishimasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-07-04T14:58:07.673370"
+    },
+    {
+      "english": "Is this seat taken?",
+      "japanese": "この席は空いていますか？",
+      "romaji": "Kono seki wa aite imasu ka?",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-07-04T14:58:07.673381"
+    },
+    {
+      "english": "How much is this, tax included?",
+      "japanese": "これはいくらですか、税込みで？",
+      "romaji": "Kore wa ikura desu ka, zeikomi de?",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-07-04T14:58:07.673383"
+    },
+    {
+      "english": "Could you speak a little slower?",
+      "japanese": "少しゆっくり話してください。",
+      "romaji": "Sukoshi yukkuri hanashite kudasai.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-07-04T14:58:07.673384"
+    },
+    {
+      "english": "This doesn’t taste right…",
+      "japanese": "これ、味が違うようです…",
+      "romaji": "Kore, aji ga chigau yō desu…",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-07-04T14:58:07.673385"
     }
   ],
-  "last_updated": "2026-07-04T13:20:11.863454"
+  "last_updated": "2026-07-04T14:58:07.673387"
 }
