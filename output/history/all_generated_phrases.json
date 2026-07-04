@@ -10114,7 +10114,42 @@
       "romaji": "Kore, aji ga chigau yō desu…",
       "category": "Numbers Japanese",
       "generated_at": "2026-07-04T14:58:07.673385"
+    },
+    {
+      "english": "Drink water often, don’t wait until thirsty",
+      "japanese": "水をこまめに飲んで, のどが渇く前に",
+      "romaji": "mizu o komame ni nonde, nodo ga kawaku mae ni",
+      "category": "Health Japanese",
+      "generated_at": "2026-07-04T19:26:07.607837"
+    },
+    {
+      "english": "Eat slowly, chew well, enjoy your meal",
+      "japanese": "ゆっくり食べて, よく噛んで, 楽しもう",
+      "romaji": "yukkuri tabete, yoku kande, tanoshimō",
+      "category": "Health Japanese",
+      "generated_at": "2026-07-04T19:26:07.607851"
+    },
+    {
+      "english": "Sleep enough, wake up refreshed",
+      "japanese": "十分に眠って, すっきり起きよう",
+      "romaji": "jūbun ni nemutte, sukkiri okiyō",
+      "category": "Health Japanese",
+      "generated_at": "2026-07-04T19:26:07.607853"
+    },
+    {
+      "english": "Take a short walk, clear your mind",
+      "japanese": "少し歩いて, 気分を整えよう",
+      "romaji": "sukoshi aruite, kibun o totonoeyō",
+      "category": "Health Japanese",
+      "generated_at": "2026-07-04T19:26:07.607855"
+    },
+    {
+      "english": "Stretch lightly, breathe deeply, relax",
+      "japanese": "軽く伸ばして, 深く呼吸, 落ち着いて",
+      "romaji": "karuku nobashite, fukaku kokyū, ochitsuite",
+      "category": "Health Japanese",
+      "generated_at": "2026-07-04T19:26:07.607856"
     }
   ],
-  "last_updated": "2026-07-04T14:58:07.673387"
+  "last_updated": "2026-07-04T19:26:07.607858"
 }
