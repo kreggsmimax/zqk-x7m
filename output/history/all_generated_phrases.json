@@ -10779,7 +10779,42 @@
       "romaji": "Kyō no taiyō ni kansha, arigatō",
       "category": "Gratitude",
       "generated_at": "2026-07-07T20:08:15.608549"
+    },
+    {
+      "english": "Go straight ahead, turn left at the corner",
+      "japanese": "まっすぐ行って, 角を左に曲がってください",
+      "romaji": "massugu itte, kado wo hidari ni magatte kudasai",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-07T23:09:43.602246"
+    },
+    {
+      "english": "Follow this road, then take the next right",
+      "japanese": "この道をまっすぐ, 次は右に曲がります",
+      "romaji": "kono michi wo massugu, tsugi wa migi ni magarimasu",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-07T23:09:43.602254"
+    },
+    {
+      "english": "Walk two blocks, then stop here",
+      "japanese": "二つ先まで歩いて, ここで止まってください",
+      "romaji": "futatsu saki made aruite, koko de tomatte kudasai",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-07T23:09:43.602255"
+    },
+    {
+      "english": "Keep going, the station is ahead",
+      "japanese": "そのまま進んで, 駅が先にあります",
+      "romaji": "sonomama susunde, eki ga saki ni arimasu",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-07T23:09:43.602257"
+    },
+    {
+      "english": "Take the stairs up, then walk forward",
+      "japanese": "階段を上がって, そのまま進みます",
+      "romaji": "kaidan wo agatte, sonomama susumimasu",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-07T23:09:43.602258"
     }
   ],
-  "last_updated": "2026-07-07T20:08:15.608551"
+  "last_updated": "2026-07-07T23:09:43.602260"
 }
