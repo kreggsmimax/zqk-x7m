@@ -10919,7 +10919,42 @@
       "romaji": "Purosesu o shinjite, tabi o shinjiyou",
       "category": "Perseverance",
       "generated_at": "2026-07-08T17:46:40.021772"
+    },
+    {
+      "english": "It's raining. Take an umbrella, please.",
+      "japanese": "雨です。傘を持って行ってください。",
+      "romaji": "Ame desu. Kasa o motte itte kudasai.",
+      "category": "Weather Japanese",
+      "generated_at": "2026-07-08T19:47:44.325710"
+    },
+    {
+      "english": "The weather is finally sunny...",
+      "japanese": "やっと晴れましたね。",
+      "romaji": "Yatto hare mashita ne.",
+      "category": "Weather Japanese",
+      "generated_at": "2026-07-08T19:47:44.325719"
+    },
+    {
+      "english": "Ooh, it's so hot today!",
+      "japanese": "ああ、今日って really 暑いですね。",
+      "romaji": "Ā, kyō tte hotto suzushii desu ne.",
+      "category": "Weather Japanese",
+      "generated_at": "2026-07-08T19:47:44.325721"
+    },
+    {
+      "english": "Last night, it snowed a lot.",
+      "japanese": "昨夜、たくさん雪が降りました。",
+      "romaji": "Sakuya, takusan yuki ga orimashita.",
+      "category": "Weather Japanese",
+      "generated_at": "2026-07-08T19:47:44.325723"
+    },
+    {
+      "english": "It's cloudy today, isn't it?",
+      "japanese": "今日は曇りですね。",
+      "romaji": "Kyō wa kumori desu ne.",
+      "category": "Weather Japanese",
+      "generated_at": "2026-07-08T19:47:44.325724"
     }
   ],
-  "last_updated": "2026-07-08T17:46:40.021773"
+  "last_updated": "2026-07-08T19:47:44.325726"
 }
