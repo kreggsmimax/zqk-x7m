@@ -11444,7 +11444,42 @@
       "romaji": "Chiisana ippo, ōkina zenshin,",
       "category": "Courage",
       "generated_at": "2026-07-11T17:06:29.224496"
+    },
+    {
+      "english": "Slow down, think carefully",
+      "japanese": "ゆっくり, よく考えよう",
+      "romaji": "Yukkuri, yoku kangaeyou",
+      "category": "Balance",
+      "generated_at": "2026-07-11T19:17:21.801677"
+    },
+    {
+      "english": "Breathe in, breathe out",
+      "japanese": "吸って、吐いて",
+      "romaji": "Sutte, haite",
+      "category": "Balance",
+      "generated_at": "2026-07-11T19:17:21.801688"
+    },
+    {
+      "english": "One step, one breath",
+      "japanese": "一歩、一息",
+      "romaji": "Ippo, hitoiki",
+      "category": "Balance",
+      "generated_at": "2026-07-11T19:17:21.801690"
+    },
+    {
+      "english": "Listen first, speak later",
+      "japanese": "まず聞いて、それから話そう",
+      "romaji": "Mazu kiite, sorekara hanasou",
+      "category": "Balance",
+      "generated_at": "2026-07-11T19:17:21.801691"
+    },
+    {
+      "english": "Small tasks, steady progress",
+      "japanese": "小さな仕事、着実な進歩",
+      "romaji": "Chiisana shigoto, chakujitsu-na shinpo",
+      "category": "Balance",
+      "generated_at": "2026-07-11T19:17:21.801692"
     }
   ],
-  "last_updated": "2026-07-11T17:06:29.224498"
+  "last_updated": "2026-07-11T19:17:21.801694"
 }
