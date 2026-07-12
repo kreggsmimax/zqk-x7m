@@ -11514,7 +11514,42 @@
       "romaji": "Ikkansei wa, kyōdo ni itsumo katsu",
       "category": "Strength",
       "generated_at": "2026-07-11T20:38:58.329873"
+    },
+    {
+      "english": "Take it easy, don't rush.",
+      "japanese": "ゆっくりでいいんです、急がなくても。",
+      "romaji": "Yukkuri de iin desu, isoganakute mo.",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-12T05:15:08.609115"
+    },
+    {
+      "english": "One step at a time, okay?",
+      "japanese": "一歩ずつ、それでいいです。",
+      "romaji": "Ippo zutsu, sore de ii desu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-12T05:15:08.609126"
+    },
+    {
+      "english": "Let's try together, shall we?",
+      "japanese": "一緒にやってみませんか。",
+      "romaji": "Issho ni yatte mimasen ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-12T05:15:08.609128"
+    },
+    {
+      "english": "Good job, really great!",
+      "japanese": "よくできました、Really GREAT！",
+      "romaji": "Yoku dekimashita, Really GREAT!",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-12T05:15:08.609129"
+    },
+    {
+      "english": "Please, feel free to ask.",
+      "japanese": "聞いてください、遠慮しないで。",
+      "romaji": "Kiite kudasai, enryo shinaide.",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-12T05:15:08.609130"
     }
   ],
-  "last_updated": "2026-07-11T20:38:58.329875"
+  "last_updated": "2026-07-12T05:15:08.609133"
 }
