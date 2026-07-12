@@ -77,10 +77,22 @@ def upload_to_instagram(video_path, caption, is_story=False, access_token=None):
     print(f"[instagram] Caption length: {len(caption_limited)} characters")
     
     try:
-        # Step 1: Upload to tmpfiles.org to get public URL
+        # Step 1: Compress and upload
+        print("[instagram] Step 1: Compressing video...")
+        import subprocess as _sp2
+        _compressed = str(video_path_obj.parent / ("comp_" + video_path_obj.name))
+        _sp2.run(["ffmpeg", "-y", "-i", str(video_path_obj), "-vf", "scale=720:-2", "-c:v", "libx264", "-crf", "28", "-preset", "fast", "-c:a", "aac", "-b:a", "64k", _compressed], capture_output=True, timeout=120)
+        import os as _os3
+        if _os3.path.exists(_compressed) and _os3.path.getsize(_compressed) > 0:
+            _upload_path = _compressed
+            print("[instagram] Compressed success")
+        else:
+            _upload_path = str(video_path_obj)
+            print("[instagram] Using original")
+        print("[instagram] Step 1: Uploading to catbox...")
         print("[instagram] Step 1: Uploading to temporary hosting...")
         import requests as _req2
-        with open(str(video_path_obj), "rb") as _f:
+        with open(_upload_path, "rb") as _f:
             _r = _req2.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": ("video.mp4", _f, "video/mp4")}, timeout=300)
         if _r.status_code == 200:
             video_url = _r.text.strip()
