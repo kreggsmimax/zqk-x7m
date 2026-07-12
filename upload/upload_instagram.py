@@ -78,43 +78,15 @@ def upload_to_instagram(video_path, caption, is_story=False, access_token=None):
     
     try:
         # Step 1: Upload to tmpfiles.org to get public URL
-        print("[instagram] Step 1: Uploading to GitHub raw URL...")
-        import subprocess as _sp, uuid as _uuid, os as _os, requests as _req, base64 as _b64, json as _json
-        _vid_name = "ig_" + _uuid.uuid4().hex[:8] + ".mp4"
-        _sp.run(["cp", str(video_path_obj), _vid_name], capture_output=True)
-        
-        # Try GitHub API upload first
-        _tok = _os.environ.get("GH_TOKEN") or _os.environ.get("GITHUB_TOKEN") or ""
-        if _tok:
-            with open(_vid_name, "rb") as _f:
-                _enc = _b64.b64encode(_f.read()).decode()
-            _put = _req.put("https://api.github.com/repos/kreggsmimax/Velocity-Japanese/contents/" + _vid_name,
-                headers={"Authorization": "Bearer " + _tok, "Accept": "application/vnd.github+json"},
-                json={"message": "add " + _vid_name, "content": _enc, "branch": "main"})
-            if _put.status_code in [200, 201]:
-                print("[instagram] Uploaded via GitHub API")
-            else:
-                print("[instagram] GitHub API failed, trying git push...")
-                _sp.run(["git", "config", "--global", "user.email", "bot@bot.com"], capture_output=True)
-                _sp.run(["git", "config", "--global", "user.name", "Bot"], capture_output=True)
-                _sp.run(["git", "add", "-f", _vid_name], capture_output=True)
-                _sp.run(["git", "commit", "--no-verify", "-m", "add " + _vid_name], capture_output=True)
-                for _ in range(3):
-                    _ret = _sp.run(["git", "push", "origin", "main"], capture_output=True)
-                    if _ret.returncode == 0: break
-                    time.sleep(5)
+        print("[instagram] Step 1: Uploading to temporary hosting...")
+        import requests as _req2
+        with open(str(video_path_obj), "rb") as _f:
+            _r = _req2.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": ("video.mp4", _f, "video/mp4")}, timeout=300)
+        if _r.status_code == 200:
+            video_url = _r.text.strip()
+            print("[instagram] Temporary URL: " + video_url)
         else:
-            _sp.run(["git", "config", "--global", "user.email", "bot@bot.com"], capture_output=True)
-            _sp.run(["git", "config", "--global", "user.name", "Bot"], capture_output=True)
-            _sp.run(["git", "add", "-f", _vid_name], capture_output=True)
-            _sp.run(["git", "commit", "--no-verify", "-m", "add " + _vid_name], capture_output=True)
-            for _ in range(3):
-                _ret = _sp.run(["git", "push", "origin", "main"], capture_output=True)
-                if _ret.returncode == 0: break
-                time.sleep(5)
-        
-        video_url = "https://raw.githubusercontent.com/kreggsmimax/Velocity-Japanese/main/" + _vid_name
-        print("[instagram] GitHub raw URL: " + video_url)
+            raise Exception("catbox.moe upload failed: " + str(_r.status_code))
         print("[instagram] Step 2: Creating Instagram " + media_type + " container...")
         
         # v21.0 or v18.0? The "new" one used v21.0
