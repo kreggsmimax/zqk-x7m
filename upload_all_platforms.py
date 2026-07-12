@@ -211,7 +211,8 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None):
                     upload_result = upload_func(
                         video_path=video_path,
                         caption=caption,
-                        is_story=False
+                        is_story=False,
+                        access_token=os.getenv('INSTAGRAM_ACCESS_TOKEN') or os.getenv('FACEBOOK_ACCESS_TOKEN')
                     )
                 elif platform_name == "youtube":
                     num_phrases = len(phrases) if phrases else 5
