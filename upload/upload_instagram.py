@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-def upload_to_instagram(video_path, caption, is_story=False):
+def upload_to_instagram(video_path, caption, is_story=False, access_token=None):
     """
     Upload video to Instagram via temporary public URL.
     Can be a Reel or a Story.
@@ -24,7 +24,8 @@ def upload_to_instagram(video_path, caption, is_story=False):
     print("=" * 60)
     
     # Get credentials with fallbacks
-    access_token = os.getenv('INSTAGRAM_ACCESS_TOKEN') or os.getenv('FACEBOOK_ACCESS_TOKEN')
+    if not access_token:
+        access_token = os.getenv('INSTAGRAM_ACCESS_TOKEN') or os.getenv('FACEBOOK_ACCESS_TOKEN')
     user_id = os.getenv('INSTAGRAM_ACCOUNT_ID') or os.getenv('IG_USER_ID')
     
     # Debug info (masked)
