@@ -11584,7 +11584,42 @@
       "romaji": "Haru, natsu… dotchi ga suki desu ka?",
       "category": "Weather Japanese",
       "generated_at": "2026-07-12T05:21:28.767436"
+    },
+    {
+      "english": "Hello, nice day",
+      "japanese": "",
+      "romaji": "konnichiwa, yoi hi",
+      "category": "Greetings",
+      "generated_at": "2026-07-12T05:33:51.165120"
+    },
+    {
+      "english": "Hi, what's new",
+      "japanese": "",
+      "romaji": "hajimemashite, atarashii koto",
+      "category": "Greetings",
+      "generated_at": "2026-07-12T05:33:51.165132"
+    },
+    {
+      "english": "Long time, no see",
+      "japanese": "",
+      "romaji": "hisashiburi, ogenki desu ka",
+      "category": "Greetings",
+      "generated_at": "2026-07-12T05:33:51.165134"
+    },
+    {
+      "english": "Good morning, sunshine",
+      "japanese": "",
+      "romaji": "ohayou, hi no de",
+      "category": "Greetings",
+      "generated_at": "2026-07-12T05:33:51.165135"
+    },
+    {
+      "english": "Hi, how are you",
+      "japanese": "",
+      "romaji": "konnichiwa, genki desu ka",
+      "category": "Greetings",
+      "generated_at": "2026-07-12T05:33:51.165136"
     }
   ],
-  "last_updated": "2026-07-12T05:21:28.767438"
+  "last_updated": "2026-07-12T05:33:51.165138"
 }
