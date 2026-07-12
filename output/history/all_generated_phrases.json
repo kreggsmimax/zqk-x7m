@@ -11794,7 +11794,42 @@
       "romaji": "Mokuhyou ni, seikou",
       "category": "Success",
       "generated_at": "2026-07-12T06:27:59.503626"
+    },
+    {
+      "english": "Let's review the budget, carefully.",
+      "japanese": "予算を確認しよう、慎重に。",
+      "romaji": "Yosan o kakunin shiyō, shinchō ni.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-12T06:33:24.582011"
+    },
+    {
+      "english": "Printer's jammed, need help.",
+      "japanese": "プリンターが詰まった、助けて。",
+      "romaji": "Purintā ga tsumatta, tasukete.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-12T06:33:24.582021"
+    },
+    {
+      "english": "Email to client, check tone.",
+      "japanese": "クライアントへのメール、 tone チェックして。",
+      "romaji": "Kuraiante e no mēru, chōku tōn chekku shite.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-12T06:33:24.582023"
+    },
+    {
+      "english": "Presentation slide, ready by EOD.",
+      "japanese": "プレゼン資料、今日中に。",
+      "romaji": "Purezen shiryō, kyōchū ni.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-12T06:33:24.582025"
+    },
+    {
+      "english": "Network's down, reboot now.",
+      "japanese": "ネットが落ちた、再起動して。",
+      "romaji": "Netto ga ochita, saikidō shite.",
+      "category": "Work Japanese",
+      "generated_at": "2026-07-12T06:33:24.582026"
     }
   ],
-  "last_updated": "2026-07-12T06:27:59.503628"
+  "last_updated": "2026-07-12T06:33:24.582028"
 }
