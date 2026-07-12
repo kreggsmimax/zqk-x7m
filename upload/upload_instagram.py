@@ -26,6 +26,8 @@ def upload_to_instagram(video_path, caption, is_story=False, access_token=None):
     # Get credentials with fallbacks
     if not access_token:
         access_token = os.getenv('INSTAGRAM_ACCESS_TOKEN') or os.getenv('FACEBOOK_ACCESS_TOKEN')
+    print(f"[instagram] DEBUG: token starts with: {access_token[:10] if access_token else 'NONE'}")
+    print(f"[instagram] DEBUG: token length: {len(access_token) if access_token else 0}")
     user_id = os.getenv('INSTAGRAM_ACCOUNT_ID') or os.getenv('IG_USER_ID')
     
     # Debug info (masked)
