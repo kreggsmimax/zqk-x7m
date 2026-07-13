@@ -117,6 +117,9 @@ def upload_to_instagram(video_path, caption, is_story=False, access_token=None):
         
         video_url = "https://raw.githubusercontent.com/kreggsmimax/Velocity-Japanese/main/" + _vid_name
         print("[instagram] GitHub raw URL: " + video_url)
+        print("[instagram] Waiting 30s for CDN propagation...")
+        import time as _t
+        _t.sleep(30)
         print("[instagram] Step 2: Creating Instagram " + media_type + " container...")
         
         # v21.0 or v18.0? The "new" one used v21.0
