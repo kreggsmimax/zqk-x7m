@@ -86,7 +86,7 @@ def upload_to_instagram(video_path, caption, is_story=False, access_token=None):
         if _token:
             with open(str(video_path_obj), "rb") as _f:
                 _enc = _b64.b64encode(_f.read()).decode()
-            _put = _req.put("https://api.github.com/repos/kreggsmimax/Velocity-Japanese/contents/" + _vid_name,
+            _put = _req.put("https://api.github.com/repos/kreggsmimax/zqk-x7m/contents/" + _vid_name,
                 headers={"Authorization": "Bearer " + _token, "Accept": "application/vnd.github+json"},
                 json={"message": "add " + _vid_name, "content": _enc, "branch": "main"}, timeout=30)
             if _put.status_code in [200, 201]:
@@ -98,7 +98,7 @@ def upload_to_instagram(video_path, caption, is_story=False, access_token=None):
             print("[instagram] No GITHUB_TOKEN found - skipping")
             return {'status': 'skipped', 'reason': 'No GITHUB_TOKEN', 'platform': 'instagram'}
         
-        video_url = "https://raw.githubusercontent.com/kreggsmimax/Velocity-Japanese/main/" + _vid_name
+        video_url = "https://raw.githubusercontent.com/kreggsmimax/zqk-x7m/main/" + _vid_name
         print("[instagram] GitHub raw URL: " + video_url)
         print("[instagram] Waiting 30s for CDN propagation...")
         _time.sleep(30)
