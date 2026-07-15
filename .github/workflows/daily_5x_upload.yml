@@ -181,6 +181,7 @@ jobs:
           git add output/history/all_generated_phrases.json output/history/recent_categories.json
           if ! git diff --staged --quiet; then
             git commit -m "📊 Update phrase history - Run #${{ github.run_number }}"
+            git pull --rebase
             git push
             echo "✅ Phrase history committed - NO repeats across runs!"
           else
