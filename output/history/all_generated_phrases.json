@@ -12634,7 +12634,42 @@
       "romaji": "Subete no senmonka mo shoshinsha kara,",
       "category": "Courage",
       "generated_at": "2026-07-16T20:44:54.843459"
+    },
+    {
+      "english": "Go back a little, then turn around",
+      "japanese": "少し戻って, それからUターンしてください",
+      "romaji": "sukoshi modotte, sorekara yuu taan shite kudasai",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-16T23:04:23.938631"
+    },
+    {
+      "english": "At the lights, cross straight across",
+      "japanese": "信号で, まっすぐ横断してください",
+      "romaji": "shingou de, massugu oudan shite kudasai",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-16T23:04:23.938639"
+    },
+    {
+      "english": "Turn right at the bridge, and continue",
+      "japanese": "橋を右に曲がって, そのまま行ってください",
+      "romaji": "hashi wo migi ni magatte, sonomama itte kudasai",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-16T23:04:23.938641"
+    },
+    {
+      "english": "Go upstairs, then turn left immediately",
+      "japanese": "二階へ上がって, すぐ左に曲がります",
+      "romaji": "nikai e agatte, sugu hidari ni magarimasu",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-16T23:04:23.938642"
+    },
+    {
+      "english": "Stay on this path, until you see the sign",
+      "japanese": "この道のまま, 看板が見えるまで進んでください",
+      "romaji": "kono michi no mama, kanban ga mieru made susunde kudasai",
+      "category": "Direction Japanese",
+      "generated_at": "2026-07-16T23:04:23.938643"
     }
   ],
-  "last_updated": "2026-07-16T20:44:54.843461"
+  "last_updated": "2026-07-16T23:04:23.938645"
 }
