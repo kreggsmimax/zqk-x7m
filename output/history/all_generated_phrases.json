@@ -12844,7 +12844,42 @@
       "romaji": "hajimemashite, tanoshimi ni",
       "category": "Greetings",
       "generated_at": "2026-07-17T20:42:42.776352"
+    },
+    {
+      "english": "Slow down, one step at a time",
+      "japanese": "ゆっくり、一歩一歩",
+      "romaji": "Yukkuri, ippo-ippo",
+      "category": "Patience",
+      "generated_at": "2026-07-17T22:56:06.010038"
+    },
+    {
+      "english": "Take a breath, relax your shoulders",
+      "japanese": "息をして、肩の力を抜いて",
+      "romaji": "Iki o shite, kata no chikara o nuite",
+      "category": "Patience",
+      "generated_at": "2026-07-17T22:56:06.010049"
+    },
+    {
+      "english": "Wait patiently, time will tell",
+      "japanese": "じっくり待てば、答えは出る",
+      "romaji": "Jikkuri matte ba, kotae wa deru",
+      "category": "Patience",
+      "generated_at": "2026-07-17T22:56:06.010051"
+    },
+    {
+      "english": "Don’t rush, good things take time",
+      "japanese": "急がないで、良いものは時間がかかる",
+      "romaji": "Isoがないで、良いものは時間がかかる",
+      "category": "Patience",
+      "generated_at": "2026-07-17T22:56:06.010052"
+    },
+    {
+      "english": "Listen first, then speak",
+      "japanese": "まず聞いて、それから話す",
+      "romaji": "Mazu kiite, sore kara hanasu",
+      "category": "Patience",
+      "generated_at": "2026-07-17T22:56:06.010053"
     }
   ],
-  "last_updated": "2026-07-17T20:42:42.776353"
+  "last_updated": "2026-07-17T22:56:06.010055"
 }
