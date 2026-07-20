@@ -13264,7 +13264,42 @@
       "romaji": "Chiisana ippo zutsu, yagate ookiku toberu",
       "category": "Purpose",
       "generated_at": "2026-07-19T22:59:16.391932"
+    },
+    {
+      "english": "Monday, back to work, I guess",
+      "japanese": "月曜日だ、仕事に戻ろう",
+      "romaji": "Getsuyōbi da, shigoto ni modorou",
+      "category": "Time Japanese",
+      "generated_at": "2026-07-20T12:08:52.694715"
+    },
+    {
+      "english": "Friday, almost weekend, keep going",
+      "japanese": "金曜日だ、あと少し頑張ろう",
+      "romaji": "Kin'yōbi da, ato sukoshi ganbarou",
+      "category": "Time Japanese",
+      "generated_at": "2026-07-20T12:08:52.694726"
+    },
+    {
+      "english": "Noon, time for lunch, let's go",
+      "japanese": "正午だ、昼ご飯に行こう",
+      "romaji": "Shōgo da, hiru gohan ni ikou",
+      "category": "Time Japanese",
+      "generated_at": "2026-07-20T12:08:52.694728"
+    },
+    {
+      "english": "Midnight, time to sleep soon",
+      "japanese": "深夜だ、もうすぐ寝よう",
+      "romaji": "Shinya da, mō sugu neyou",
+      "category": "Time Japanese",
+      "generated_at": "2026-07-20T12:08:52.694729"
+    },
+    {
+      "english": "Breakfast, start the day right",
+      "japanese": "朝ご飯だ、一日をしっかり始めよう",
+      "romaji": "Asagohan da, ichinichi o shikkari hajimeyou",
+      "category": "Time Japanese",
+      "generated_at": "2026-07-20T12:08:52.694730"
     }
   ],
-  "last_updated": "2026-07-19T22:59:16.391933"
+  "last_updated": "2026-07-20T12:08:52.694732"
 }
