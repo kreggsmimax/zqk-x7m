@@ -13929,7 +13929,42 @@
       "romaji": "Yōga o suru, kokoro o yasumu",
       "category": "Hobbies Japanese",
       "generated_at": "2026-07-24T21:08:00.925553"
+    },
+    {
+      "english": "One ticket, please.",
+      "japanese": "切符を、一枚ください。",
+      "romaji": "kippu o, ichi-mai kudasai.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-07-24T23:30:45.860708"
+    },
+    {
+      "english": "Where is the restroom?",
+      "japanese": "トイレは、どこですか？",
+      "romaji": "toire wa, doko desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-07-24T23:30:45.860718"
+    },
+    {
+      "english": "This is delicious!",
+      "japanese": "これ、おいしいです！",
+      "romaji": "kore, oishii desu!",
+      "category": "Travel Japanese",
+      "generated_at": "2026-07-24T23:30:45.860719"
+    },
+    {
+      "english": "Can I have the menu?",
+      "japanese": "メニューを、もらえますか？",
+      "romaji": "menyuu o, moraemasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-07-24T23:30:45.860721"
+    },
+    {
+      "english": "See you later!",
+      "japanese": "また、後で。",
+      "romaji": "mata, ato de.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-07-24T23:30:45.860722"
     }
   ],
-  "last_updated": "2026-07-24T21:08:00.925554"
+  "last_updated": "2026-07-24T23:30:45.860724"
 }
